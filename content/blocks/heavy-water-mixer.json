@@ -3,7 +3,7 @@
 	"type": "GenericCrafter",
 	"description": "Mixes heavy water",
 	"liquidCapacity": 50,
-	"outputLiquid": {"liquid": "heavy-water", "amount": 5},
+	"outputLiquid": {"liquid": "heavy-water", "amount": 0.1},
 	"hasPower": true,
 	"size": 2,
 	"hasLiquids": true,
@@ -11,7 +11,11 @@
 	"updateEffect": "smeltsmoke",
 	"consumes": {
 		"power": 1.4,
-		"item": "coal"
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.3,
+			"booster": true
+		}
 	},
 	"requirements": [
 		{ "item": "phasefabric", "amount": 60 },
