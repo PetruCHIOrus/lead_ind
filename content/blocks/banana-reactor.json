@@ -1,6 +1,6 @@
 {
 	"type": "SingleTypeGenerator",
-	"name": "Banana reactor test commit",
+	"name": "Banana reactor",
 	"description": "Just the best place for your bananas",
 	"itemCapacity": 10,
 	"size": 3,
