@@ -1,9 +1,9 @@
 {
-	"name": "Coalmelter",
+	"name": "Heavy water mixer",
 	"type": "GenericCrafter",
-	"description": "Melts coal to oil",
+	"description": "Mixes heavy water",
 	"liquidCapacity": 50,
-	"outputLiquid": {"liquid": "oil", "amount": 5},
+	"outputLiquid": {"liquid": "heavy-water", "amount": 5},
 	"hasPower": true,
 	"size": 2,
 	"hasLiquids": true,
@@ -14,7 +14,7 @@
 		"item": "coal"
 	},
 	"requirements": [
-		{ "item": "silicon", "amount": 60 },
+		{ "item": "phasefabric", "amount": 60 },
 		{ "item": "copper", "amount": 120 }
 	],
 	"category": "crafting",
