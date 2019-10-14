@@ -1,0 +1,25 @@
+{
+	"name": "Heatdrill",
+	"description": "You personally will be bursting with the heat of this drill, so HOT",
+	"type": "Drill",
+	"size": 5,
+	"tier": 4,
+	"drillTime": 160,
+	"requirements": [
+		{ "item": "copper", "amount": 105 },
+		{ "item": "graphite", "amount": 90 },
+		{ "item": "titanium", "amount": 60 },
+		{ "item": "silicon", "amount": 90 },
+		{ "item": "surge-alloy", "amount": 30 },
+	],
+	"consumes": {
+		"power": 198.0,
+		"liquid": {
+			"liquid": "slag", 
+			"amount": 0.1,
+			"booster": true
+		}
+	},
+	"category": "production",
+	"research": "laser-drill"
+}

@@ -1,0 +1,8 @@
+{
+	"type": "resource",
+	"name": "Plutonium",
+	"description": "Radioactive thing",
+	"cost": 0,
+	"color": "d1d1d1",
+	"Radioactivity": 4
+}

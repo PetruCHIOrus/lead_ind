@@ -1,0 +1,27 @@
+{
+	"name": "Molecular separator",
+	"type": "GenericCrafter",
+	"description": "Makes plutonium",
+	"hasPower": true,
+	"size": 2,
+	"hasLiquids": false,
+	"craftTime": 130,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.7,
+		"items": {
+			"items": [
+				{ "item": "thorium", "amount": 3 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "phase-fabric", "amount": 120 },
+		{"item": "surge-alloy", "amount": 60}
+	],
+	"category": "crafting",
+	"research": "differential-generator",
+	"idleSound": "respawning",
+	"outputItem": {"item": "plutonium", "amount": 1}
+}

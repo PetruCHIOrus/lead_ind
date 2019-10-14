@@ -1,0 +1,14 @@
+{
+	"name": "Microdrill",
+	"description": "Microdrill 1x1 for some cases",
+	"type": "Drill",
+	"size": 1,
+	"tier": 2,
+	"drillTime": 600,
+	"requirements": [
+		{ "item": "copper", "amount": 9 },
+		{ "item": "graphite", "amount": 5 }
+	],
+	"category": "production",
+	"research": "graphite-press"
+}

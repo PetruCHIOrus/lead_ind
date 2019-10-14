@@ -1,0 +1,7 @@
+{
+	"type": "resource",
+	"name": "banana",
+	"description": "Just banana",
+	"cost": 0,
+	"color": "ede100"
+}

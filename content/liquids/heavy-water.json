@@ -1,0 +1,7 @@
+{
+	"name": "Heavy water",
+	"description": "Heavy-hydrogen water",
+	"temperature": 0.001,
+    "viscosity": 0.8,
+    "color": "4f4c9c"
+}
