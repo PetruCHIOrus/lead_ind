@@ -9,8 +9,8 @@
 	"shootCone": 40,
 	"rotateSpeed": 15,
 	"shots": 2,
-	"range": 170,
-	"burstSpacing": 5,
+	"range": 155,
+	"burstSpacing": 6,
 	"ammo": {
 		"flesh": {
 			"speed": 6.0,
@@ -23,7 +23,9 @@
 		}
 	},
 	"requirements": [
-		{ "item": "flesh", "amount": 35 }
+		{ "item": "flesh", "amount": 35 },
+		{ "item": "lead", "amount": 50 },
+		{ "item": "copper", "amount": 25 }
 	],
 	"category": "turret",
 	"research": "duo"
