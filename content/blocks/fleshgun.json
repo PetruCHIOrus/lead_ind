@@ -17,7 +17,7 @@
 			"damage": 15,
 			"bulletWidth": 7,
 			"bulletHeight": 9,
-			"shootEffect": "lightningShoot",
+			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 8
 		}
