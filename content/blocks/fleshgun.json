@@ -13,13 +13,13 @@
 	"burstSpacing": 5,
 	"ammo": {
 		"flesh": {
-			"speed": 7.0,
-			"damage": 10,
+			"speed": 6.0,
+			"damage": 15,
 			"bulletWidth": 7,
 			"bulletHeight": 9,
 			"shootEffect": "lightningShoot",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 5
+			"ammoMultiplier": 8
 		}
 	},
 	"requirements": [
