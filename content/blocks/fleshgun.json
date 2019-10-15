@@ -1,0 +1,32 @@
+{
+	"type": "burstTurret",
+	"name": "Fleshgun",
+	"description": "Shoots fleshy. Danger!",
+	"targetAir": false,
+	"targetGround": true,
+	"size": 2,
+	"reload": 18,
+	"shootCone": 40,
+	"rotateSpeed": 22,
+	"shots": 2,
+	"range": 155,
+	"burstSpacing": 6,
+	"ammo": {
+		"flesh": {
+			"speed": 6.0,
+			"damage": 15,
+			"bulletWidth": 7,
+			"bulletHeight": 9,
+			"shootEffect": "lightningShoot",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 8
+		}
+	},
+	"requirements": [
+		{ "item": "flesh", "amount": 35 },
+		{ "item": "lead", "amount": 50 },
+		{ "item": "copper", "amount": 25 }
+	],
+	"category": "turret",
+	"research": "duo"
+}

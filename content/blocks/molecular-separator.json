@@ -8,17 +8,17 @@
 	"craftTime": 130,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-		"power": 0.7,
+		"power": 0.3,
 		"items": {
 			"items": [
-				{ "item": "thorium", "amount": 3 }
+				{ "item": "thorium", "amount": 2 }
 			]
 		},
 	},
 	"requirements": [
 		{ "item": "silicon", "amount": 60 },
-		{ "item": "phase-fabric", "amount": 120 },
-		{"item": "surge-alloy", "amount": 60}
+		{ "item": "phase-fabric", "amount": 25 },
+		{"item": "surge-alloy", "amount": 5}
 	],
 	"category": "crafting",
 	"research": "differential-generator",

@@ -10,16 +10,17 @@
 	"craftTime": 10,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-		"power": 1.4,
+		"power": 0.8,
 		"liquid": {
 			"liquid": "water", 
-			"amount": 3,
+			"amount": 1.5,
 			"booster": true
 		}
 	},
 	"requirements": [
-		{ "item": "phase-fabric", "amount": 58 },
-		{ "item": "silicon", "amount": 160 }
+		{ "item": "copper", "amount": 50 },
+		{ "item": "lead", "amount": 40 },
+		{ "item": "silicon", "amount": 35 }
 	],
 	"category": "crafting",
 	"research": "coal-centrifuge",

@@ -6,14 +6,16 @@
 	"tier": 4,
 	"drillTime": 160,
 	"requirements": [
-		{ "item": "copper", "amount": 150 },
-		{ "item": "graphite", "amount": 75 },
-		{ "item": "titanium", "amount": 50 },
-		{ "item": "silicon", "amount": 75 },
-		{ "item": "surge-alloy", "amount": 10 },
+		{ "item": "copper", "amount": 140 },
+		{ "item": "graphite", "amount": 70 },
+		{ "item": "titanium", "amount": 100 },
+		{ "item": "silicon", "amount": 50 },
+		{ "item": "lead", "amount": 50 },
+		{ "item": "plastanium", "amount": 25 },
+
 	],
 	"consumes": {
-		"power": 198.0,
+		"power": 3.0,
 		"liquid": {
 			"liquid": "slag", 
 			"amount": 0.1,
