@@ -5,7 +5,7 @@
 	"targetAir": false,
 	"targetGround": true,
 	"size": 2,
-	"inaccuracy": 20,
+	"inaccuracy": 23,
 	"reload": 18,
 	"shootCone": 40,
 	"rotateSpeed": 22,
@@ -14,8 +14,8 @@
 	"burstSpacing": 6,
 	"ammo": {
 		"flesh": {
-			"speed": 6.0,
-			"damage": 18,
+			"speed": 3.5,
+			"damage": 19,
 			"bulletWidth": 7,
 			"bulletHeight": 9,
 			"shootEffect": "shootSmall",
@@ -26,6 +26,7 @@
 	"requirements": [
 		{ "item": "flesh", "amount": 35 },
 		{ "item": "lead", "amount": 50 },
+		{ "item": "titan", "amount": 40 },
 		{ "item": "copper", "amount": 25 }
 	],
 	"category": "turret",
