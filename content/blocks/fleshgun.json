@@ -5,21 +5,22 @@
 	"targetAir": false,
 	"targetGround": true,
 	"size": 2,
+	"inaccuracy": 40,
 	"reload": 18,
 	"shootCone": 40,
 	"rotateSpeed": 22,
-	"shots": 2,
-	"range": 155,
+	"shots": 4,
+	"range": 162,
 	"burstSpacing": 6,
 	"ammo": {
 		"flesh": {
 			"speed": 6.0,
-			"damage": 15,
+			"damage": 8,
 			"bulletWidth": 7,
 			"bulletHeight": 9,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 8
+			"ammoMultiplier": 4
 		}
 	},
 	"requirements": [
