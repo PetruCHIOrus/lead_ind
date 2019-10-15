@@ -13,7 +13,7 @@
 		{ "item": "surge-alloy", "amount": 30 },
 	],
 	"consumes": {
-		"power": 198.0,
+		"power": 3.0,
 		"liquid": {
 			"liquid": "slag", 
 			"amount": 0.1,
