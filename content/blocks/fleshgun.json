@@ -5,7 +5,7 @@
 	"targetAir": false,
 	"targetGround": true,
 	"size": 2,
-	"inaccuracy": 40,
+	"inaccuracy": 20,
 	"reload": 18,
 	"shootCone": 40,
 	"rotateSpeed": 22,
@@ -15,7 +15,7 @@
 	"ammo": {
 		"flesh": {
 			"speed": 6.0,
-			"damage": 8,
+			"damage": 18,
 			"bulletWidth": 7,
 			"bulletHeight": 9,
 			"shootEffect": "shootSmall",
