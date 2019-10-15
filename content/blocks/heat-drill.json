@@ -12,6 +12,7 @@
 		{ "item": "silicon", "amount": 50 },
 		{ "item": "lead", "amount": 50 },
 		{ "item": "plastanium", "amount": 25 },
+
 	],
 	"consumes": {
 		"power": 3.0,
