@@ -18,8 +18,9 @@
 		}
 	},
 	"requirements": [
-		{ "item": "phase-fabric", "amount": 58 },
-		{ "item": "silicon", "amount": 160 }
+		{ "item": "copper", "amount": 50 },
+		{ "item": "lead", "amount": 40 },
+		{ "item": "silicon", "amount": 35 }
 	],
 	"category": "crafting",
 	"research": "coal-centrifuge",
