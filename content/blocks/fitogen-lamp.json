@@ -9,7 +9,7 @@
 	"craftTime": 20,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-		"power": 0.5,
+		"power": 3,
 		"liquid": {
 			"liquid": "water",
 			"amount": 0.8,
