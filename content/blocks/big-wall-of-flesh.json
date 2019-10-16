@@ -1,5 +1,6 @@
 {
 	"name": "big-wall-of-flesh",
+  "description": "hardened flesh big wall",
   "type": "wall",
   "health": 2500,
   "size": 2,
