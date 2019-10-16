@@ -5,7 +5,7 @@
 	"targetAir": false,
 	"targetGround": true,
 	"size": 2,
-	"inaccuracy": 23,
+	"inaccuracy": 12,
 	"reload": 18,
 	"shootCone": 40,
 	"rotateSpeed": 22,
