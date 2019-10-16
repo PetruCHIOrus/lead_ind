@@ -1,6 +1,6 @@
 {
 	"name": "wall-of-flesh",
-  "type": "walls",
+  "type": "wall",
   "health": 625,
   "size": 1,
   "craftTime": 0.09,
