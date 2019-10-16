@@ -7,6 +7,6 @@
   "requirements": [
 		{ "item": "flesh", "amount": 24 }
 	],
-  "category": "crafting",
+  "category": "wall",
   "research": "big-wall-of-flesh"
 }
