@@ -14,7 +14,7 @@
 	"ammo": {
 		"flesh": {
 			"speed": 6.0,
-			"damage": 15,
+			"damage": 17,
 			"bulletWidth": 7,
 			"bulletHeight": 9,
 			"shootEffect": "lightningShoot",
