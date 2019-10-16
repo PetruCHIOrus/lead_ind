@@ -2,7 +2,7 @@
 	"name": "big-wall-of-flesh",
   "type": "wall",
   "health": 2500,
-  "size": 1,
+  "size": 2,
   "craftTime": 0.34,
   "requirements": [
 		{ "item": "flesh", "amount": 24 }
