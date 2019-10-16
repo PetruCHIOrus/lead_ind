@@ -1,1 +1,12 @@
-
+{
+	"name": "wall-of-flesh",
+  "type": "walls",
+  "health": 625,
+  "size": 1,
+  "craftTime" 0.09,
+  "requirements": [
+		{ "item": "flesh", "amount": 6 }
+	],
+  "category": "crafting",
+  "research": "wall-of-flesh"
+}
