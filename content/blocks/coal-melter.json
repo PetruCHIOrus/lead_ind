@@ -10,11 +10,12 @@
 	"craftTime": 10,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-		"power": 1.4,
+		"power": 1.1,
 		"item": "coal"
 	},
 	"requirements": [
 		{ "item": "silicon", "amount": 60 },
+		{ "item": "titanium", "amount": 10 },
 		{ "item": "copper", "amount": 120 }
 	],
 	"category": "crafting",
