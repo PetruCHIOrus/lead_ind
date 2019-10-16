@@ -1,5 +1,5 @@
 {
-	"type": "resource",
+	"type": "resource", "material",
 	"name": "Flesh",
 	"description": "Bit of flesh",
 	"cost": 0,
