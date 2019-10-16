@@ -4,10 +4,10 @@
 	"description": "Experimental plutonium reactor",
 	"itemCapacity": 50,
 	"size": 4,
-	"heating": 0.02,
+	"heating": 0.1,
 	"hasLiquids": true,
     "powerProduction": 60,
-    "itemDuration" : 10,
+    "itemDuration" : 200,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
 		"item": "plutonium",
