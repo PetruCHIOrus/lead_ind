@@ -1,5 +1,5 @@
 {
-	"type": "BurstTurret",
+	"type": "turret",
 	"name": "Nova",
 	"description": "Shoots far",
 	"targetAir": true,
