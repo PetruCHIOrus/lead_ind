@@ -17,16 +17,17 @@
 			"damage": 340,
 			"bulletWidth": 13,
 			"bulletHeight": 21,
-			"shootEffect": "lightningShoot",
-			"smokeEffect": "shootSmallSmoke",
+			"shootEffect": "ShootBig",
+			"smokeEffect": "shootBigSmoke2",
 			"ammoMultiplier": 2
+		}
 	         "thorium": {
 			"speed": 20.0,
-			"damage": 290,
-			"bulletWidth": 14,
+			"damage": 450,
+			"bulletWidth": 16,
 			"bulletHeight": 23,
-			"shootEffect": "lightningShoot",
-			"smokeEffect": "shootSmallSmoke",
+			"shootEffect": "ShootBig",
+			"smokeEffect": "explosion",
 			"ammoMultiplier": 1
 		}
 	},
