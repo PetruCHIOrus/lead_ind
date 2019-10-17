@@ -1,7 +1,7 @@
 {
 	"type": "burstTurret",
 	"name": "Nova",
-	"description": "Shoots fleshy. Danger!",
+	"description": "Shoots far",
 	"targetAir": true,
 	"targetGround": true,
 	"size": 4,
@@ -14,17 +14,18 @@
 	"ammo": {
 		"plastanium": {
 			"speed": 35.0,
-			"damage": 17,
+			"damage": 200,
 			"bulletWidth": 9,
 			"bulletHeight": 14,
 			"shootEffect": "lightningShoot",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 2
+			"ammoMultiplier": 1
 		}
 	},
 	"requirements": [
 		{ "item": "flesh", "amount": 750 },
 		{ "item": "plastanium", "amount": 750 },
+		{ "item": "silicon", "amount": 750 },
 		{ "item": "torium", "amount": 750 }
 	],
 	"category": "turret",
