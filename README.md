@@ -1,6 +1,6 @@
 Hello! You are on the page of our mod!
 here you will find:
-* .json filled from mod
+* .json files from mod
 * sprites from mood
 * And - oh Lord! The mod itself! can you imagine?
 Installation:

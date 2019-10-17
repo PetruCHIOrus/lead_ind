@@ -5,26 +5,28 @@
 	"targetAir": false,
 	"targetGround": true,
 	"size": 2,
+	"inaccuracy": 12,
 	"reload": 18,
 	"shootCone": 40,
 	"rotateSpeed": 22,
-	"shots": 2,
-	"range": 155,
+	"shots": 4,
+	"range": 162,
 	"burstSpacing": 6,
 	"ammo": {
 		"flesh": {
-			"speed": 6.0,
-			"damage": 17,
+			"speed": 3.5,
+			"damage": 19,
 			"bulletWidth": 7,
 			"bulletHeight": 9,
-			"shootEffect": "lightningShoot",
+			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 8
+			"ammoMultiplier": 4
 		}
 	},
 	"requirements": [
 		{ "item": "flesh", "amount": 35 },
 		{ "item": "lead", "amount": 50 },
+		{ "item": "titanium", "amount": 40 },
 		{ "item": "copper", "amount": 25 }
 	],
 	"category": "turret",

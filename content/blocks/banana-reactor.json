@@ -2,11 +2,11 @@
 	"type": "SingleTypeGenerator",
 	"name": "Banana reactor",
 	"description": "Just the best place for your bananas",
-	"itemCapacity": 10,
+	"itemCapacity": 20,
 	"size": 3,
 	"hasLiquids": false,
     "powerProduction": 13,
-    "itemDuration" : 60,
+    "itemDuration" : 150,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
 		"item": "banana"

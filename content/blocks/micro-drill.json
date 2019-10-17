@@ -6,8 +6,9 @@
 	"tier": 2,
 	"drillTime": 600,
 	"requirements": [
-		{ "item": "copper", "amount": 9 },
-		{ "item": "graphite", "amount": 5 }
+		{ "item": "copper", "amount": 4 },
+		{ "item": "lead", "amount": 4 },
+		{ "item": "graphite", "amount": 4 }
 	],
 	"category": "production",
 	"research": "graphite-press"

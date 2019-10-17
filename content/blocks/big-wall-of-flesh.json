@@ -1,0 +1,13 @@
+{
+	"name": "Big wall of flesh",
+  "description": "hardened flesh big wall",
+  "type": "wall",
+  "health": 2500,
+  "size": 2,
+  "craftTime": 0.4,
+  "requirements": [
+		{ "item": "flesh", "amount": 24 }
+	],
+  "category": "defense",
+  "research": "big-wall-of-flesh"
+}

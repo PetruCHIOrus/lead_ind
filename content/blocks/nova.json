@@ -1,0 +1,33 @@
+{
+	"type": "burstTurret",
+	"name": "Nova",
+	"description": "Shoots far",
+	"targetAir": true,
+	"targetGround": true,
+	"size": 4,
+	"reload": 180,
+	"shootCone": 40,
+	"rotateSpeed": 1,
+	"shots": 1,
+	"range": 750,
+	"burstSpacing": 6,
+	"ammo": {
+		"plastanium": {
+			"speed": 20.0,
+			"damage": 340,
+			"bulletWidth": 9,
+			"bulletHeight": 14,
+			"shootEffect": "lightningShoot",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1
+		}
+	},
+	"requirements": [
+		{ "item": "flesh", "amount": 750 },
+		{ "item": "plastanium", "amount": 750 },
+		{ "item": "silicon", "amount": 750 },
+		{ "item": "thorium", "amount": 750 }
+	],
+	"category": "turret",
+	"research": "duo"
+}
