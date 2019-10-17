@@ -15,8 +15,8 @@
 		"plastanium": {
 			"speed": 20.0,
 			"damage": 340,
-			"bulletWidth": 9,
-			"bulletHeight": 14,
+			"bulletWidth": 13,
+			"bulletHeight": 21,
 			"shootEffect": "lightningShoot",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 1
@@ -29,5 +29,5 @@
 		{ "item": "thorium", "amount": 750 }
 	],
 	"category": "turret",
-	"research": "duo"
+	"research": "arc"
 }
