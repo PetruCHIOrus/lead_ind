@@ -12,7 +12,7 @@
 	"range": 750,
 	"burstSpacing": 6,
 	"ammo": {
-		"Blast Compound": {
+		"blast-compound": {
 			"speed": 22.0,
 			"damage": 340,
 			"bulletWidth": 13,
