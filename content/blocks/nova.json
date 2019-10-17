@@ -11,7 +11,7 @@
 	"shots": 1,
 	"range": 750,
 	"burstSpacing": 6,
-	"ammo": {
+	"ammo": [
 		"blast-compound": {
 			"speed": 22.0,
 			"damage": 340,
@@ -20,7 +20,7 @@
 			"shootEffect": "ShootBig",
 			"smokeEffect": "smallsmoke",
 			"ammoMultiplier": 2
-		},
+		],
 	"requirements": [
 		{ "item": "flesh", "amount": 750 },
 		{ "item": "plastanium", "amount": 500 },
