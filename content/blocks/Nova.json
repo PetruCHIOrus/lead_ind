@@ -1,11 +1,11 @@
 {
-	"type": "birstTurret",
+	"type": "burstTurret",
 	"name": "Nova",
 	"description": "Shoots far",
 	"targetAir": true,
 	"targetGround": true,
 	"size": 4,
-	"reload": 1,
+	"reload": 2,
 	"shootCone": 40,
 	"rotateSpeed": 2,
 	"shots": 1,
