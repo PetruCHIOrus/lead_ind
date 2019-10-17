@@ -19,7 +19,7 @@
 			"bulletHeight": 21,
 			"shootEffect": "ShootBig",
 			"smokeEffect": "smallsmoke",
-			"ammoMultiplier": 2
+			"ammoMultiplier": 2}
 		],
 	"requirements": [
 		{ "item": "flesh", "amount": 750 },
