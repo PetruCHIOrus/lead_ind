@@ -21,7 +21,7 @@
 			"smokeEffect": "shootBigSmoke2",
 			"ammoMultiplier": 2
 		}
-	         "thorium" {
+	         "pyrotite": {
 			"speed": 20.0,
 			"damage": 450,
 			"bulletWidth": 16,
