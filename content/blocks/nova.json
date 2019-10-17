@@ -5,7 +5,7 @@
 	"targetAir": true,
 	"targetGround": true,
 	"size": 4,
-	"reload": 50,
+	"reload": 180,
 	"shootCone": 40,
 	"rotateSpeed": 1,
 	"shots": 1,
@@ -14,7 +14,7 @@
 	"ammo": {
 		"plastanium": {
 			"speed": 20.0,
-			"damage": 160,
+			"damage": 340,
 			"bulletWidth": 9,
 			"bulletHeight": 14,
 			"shootEffect": "lightningShoot",
