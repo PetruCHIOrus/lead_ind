@@ -5,11 +5,11 @@
 	"targetAir": true,
 	"targetGround": true,
 	"size": 3,
-	"reload": 2,
+	"reload": 50,
 	"shootCone": 40,
-	"rotateSpeed": 2,
+	"rotateSpeed": 1,
 	"shots": 1,
-	"range": 575,
+	"range": 750,
 	"burstSpacing": 6,
 	"ammo": {
 		"plastanium": {
