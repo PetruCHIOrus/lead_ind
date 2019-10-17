@@ -13,10 +13,18 @@
 	"burstSpacing": 6,
 	"ammo": {
 		"plastanium": {
-			"speed": 20.0,
+			"speed": 22.0,
 			"damage": 340,
 			"bulletWidth": 13,
 			"bulletHeight": 21,
+			"shootEffect": "lightningShoot",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2
+	         "thorium": {
+			"speed": 20.0,
+			"damage": 290,
+			"bulletWidth": 14,
+			"bulletHeight": 23,
 			"shootEffect": "lightningShoot",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 1
@@ -24,9 +32,9 @@
 	},
 	"requirements": [
 		{ "item": "flesh", "amount": 750 },
-		{ "item": "plastanium", "amount": 750 },
+		{ "item": "plastanium", "amount": 500 },
 		{ "item": "silicon", "amount": 750 },
-		{ "item": "thorium", "amount": 750 }
+		{ "item": "thorium", "amount": 500 }
 	],
 	"category": "turret",
 	"research": "arc"
