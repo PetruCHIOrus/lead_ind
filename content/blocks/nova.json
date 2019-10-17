@@ -17,8 +17,8 @@
 			"damage": 340,
 			"bulletWidth": 13,
 			"bulletHeight": 21,
-			"shootEffect": "ShootBig",
-			"smokeEffect": "smallsmoke",
+			"shootEffect": "shootBig",
+			"smokeEffect": "lancerLaserShootSmoke",
 			"ammoMultiplier": 2}
 	},
 	"requirements": [
