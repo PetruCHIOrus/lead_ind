@@ -1,5 +1,5 @@
 {
-	"type": "bigTurret",
+	"type": "birstTurret",
 	"name": "Nova",
 	"description": "Shoots far",
 	"targetAir": true,
