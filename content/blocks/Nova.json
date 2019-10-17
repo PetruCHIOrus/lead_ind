@@ -4,7 +4,7 @@
 	"description": "Shoots far",
 	"targetAir": true,
 	"targetGround": true,
-	"size": 4,
+	"size": 3,
 	"reload": 2,
 	"shootCone": 40,
 	"rotateSpeed": 2,
@@ -13,8 +13,8 @@
 	"burstSpacing": 6,
 	"ammo": {
 		"plastanium": {
-			"speed": 35.0,
-			"damage": 200,
+			"speed": 20.0,
+			"damage": 160,
 			"bulletWidth": 9,
 			"bulletHeight": 14,
 			"shootEffect": "lightningShoot",
