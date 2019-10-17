@@ -20,17 +20,7 @@
 			"shootEffect": "ShootBig",
 			"smokeEffect": "shootBigSmoke2",
 			"ammoMultiplier": 2
-		}
-	         "pyrotite": {
-			"speed": 20.0,
-			"damage": 450,
-			"bulletWidth": 16,
-			"bulletHeight": 23,
-			"shootEffect": "ShootBig",
-			"smokeEffect": "explosion",
-			"ammoMultiplier": 1
-		}
-	},
+		},
 	"requirements": [
 		{ "item": "flesh", "amount": 750 },
 		{ "item": "plastanium", "amount": 500 },
