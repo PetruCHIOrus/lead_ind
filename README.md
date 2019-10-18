@@ -1,7 +1,7 @@
 Hello! You are on the page of our mod!
 here you will find:
 * .json files from mod
-* sprites from mood
+* interesting sprites
 * And - oh Lord! The mod itself! can you imagine?
 Installation:
 * Open "mods" in game
@@ -14,7 +14,7 @@ Installation:
 Здравствуйте!  Вы находитесь на странице нашего мода!
 здесь вы найдете:
 *.json файлы мода
-* Спрайты от настроения
+* Интересные спрайты
 * И - о Боже!  Сам мод!  ты можешь представить?
  Установка:
 * Откройте "моды" в игре
