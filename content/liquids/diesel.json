@@ -1,0 +1,8 @@
+{
+	"name": "Diesel",
+	"description": "Good fuel",
+	"temperature": 0.5,
+    "viscosity": 0.8,
+    "color": "717275",
+    "flammability": 0.5
+}
