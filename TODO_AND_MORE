@@ -1,3 +1,10 @@
+TODO
+
+1. raps-farm, boil-mixer Делает рапс и потом раст. масло
+2. diesel-mixer из нефти и воды делает дизель (топливо)
+3. 
+
+
  Эффекты
  none, placeBlock, breakBlock, smoke, spawn, tapBlock, select,
     vtolHover, unitDrop, unitPickup, unitLand, pickup, healWave, heal, landShock, reactorsmoke, nuclearsmoke, nuclearcloud,

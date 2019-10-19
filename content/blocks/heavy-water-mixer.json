@@ -24,6 +24,4 @@
 	],
 	"category": "crafting",
 	"research": "coal-centrifuge",
-	"activeSound": "demosound1",
-	"activeSoundVolume": 2
 }
