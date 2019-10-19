@@ -2,7 +2,7 @@
 	"name": "Coalmelter",
 	"type": "GenericCrafter",
 	"description": "Melts coal to oil",
-	"liquidCapacity": 30,
+	"liquidCapacity": 15,
 	"outputLiquid": {"liquid": "oil", "amount": 3},
 	"hasPower": true,
 	"size": 2,
@@ -10,7 +10,7 @@
 	"craftTime": 10,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-		"power": 1.5,
+		"power": 1.0,
 		"item": "coal"
 	},
 	"requirements": [
