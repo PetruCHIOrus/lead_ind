@@ -1,9 +1,9 @@
 {
-	"name": "Heavy water mixer",
+	"name": "Diesel mixer",
 	"type": "GenericCrafter",
-	"description": "Mixes heavy water",
+	"description": "Mixes great fuel",
 	"liquidCapacity": 50,
-	"outputLiquid": {"liquid": "heavy-water", "amount": 1},
+	"outputLiquid": {"liquid": "diesel", "amount": 1},
 	"hasPower": true,
 	"size": 3,
 	"hasLiquids": true,
@@ -12,9 +12,14 @@
 	"consumes": {
 		"power": 0.8,
 		"liquid": {
-			"liquid": "water", 
+			"liquid": "bioil", 
 			"amount": 1.5,
-			"booster": true
+			"booster": false
+		},
+		"items": {
+			"items": [
+				{"item": "coal", "amount": 2}
+			]
 		}
 	},
 	"requirements": [
