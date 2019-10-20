@@ -19,12 +19,24 @@
 			"bulletHeight": 21,
 			"shootEffect": "shootBig",
 			"smokeEffect": "lancerLaserShootSmoke",
-			"ammoMultiplier": 2},
+			"ammoMultiplier": 1},
+		"silicon": {
+			"speed": 20.0,
+			"damage": 290,
+			"homingPower" : 2,
+                        "homingRange" : 50,
+			"bulletWidth": 14,
+			"bulletHeight": 19,
+			"shootEffect": "shootBig",
+			"smokeEffect": "lancerLaserShootSmoke",
+			"ammoMultiplier": 3},
 		"plastanium": {
 			"speed": 22.0,
-			"damage": 340,
+			"damage": 290,
 			"bulletWidth": 13,
 			"bulletHeight": 21,
+			"shootEffect": "shootBig",
+			"smokeEffect": "lancerLaserShootSmoke",
 			"ammoMultiplier": 2
 		}
 	},
