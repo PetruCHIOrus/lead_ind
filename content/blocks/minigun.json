@@ -1,35 +1,44 @@
 {
 	"type": "burstTurret",
-	"name": "Minigun",
+	"name": "minigun",
 	"description": "Shoots faster!",
 	"targetAir": true,
 	"targetGround": true,
 	"size": 2,
 	"inaccuracy": 2,
-	"reload": 8,
+	"reload": 10,
 	"shootCone": 1,
 	"rotateSpeed": 22,
 	"shots": 1,
-	"range": 120,
+	"range": 110,
 	"burstSpacing": 2,
 	"ammo": {
 		"titanium": {
 			"speed": 9,
-			"damage": 13,
+			"damage": 10,
 			"bulletWidth": 2,
 			"bulletHeight": 5,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 16
+			"ammoMultiplier": 12
 		},
-		"thorium": {
+		"silicon": {
 			"speed": 8,
-			"damage": 22,
+			"damage": 12,
 			"bulletWidth": 3,
 			"bulletHeight": 6,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 16
+			"ammoMultiplier": 10
+		},
+		"thorium": {
+			"speed": 8,
+			"damage": 20,
+			"bulletWidth": 4,
+			"bulletHeight": 7,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 8
 		}
 	},
 	"requirements": [
