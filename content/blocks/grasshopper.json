@@ -11,13 +11,13 @@
 	"rotateSpeed": 12,
 	"shots": 5,
 	"range": 70,
-	"burstSpacing": 2,
+	"burstSpacing": 0,
 	"ammo": {
 		"lead": {
 			"speed": 2,
 			"damage": 8,
-			"bulletWidth": 7,
-			"bulletHeight": 9,
+			"bulletWidth": 5,
+			"bulletHeight": 7,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 1
@@ -27,8 +27,8 @@
 			"damage": 8,
       "homingPower" : 3,
       "homingRange" : 40,
-			"bulletWidth": 8,
-			"bulletHeight": 10,
+			"bulletWidth": 6,
+			"bulletHeight": 8,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 2
