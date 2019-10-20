@@ -1,0 +1,25 @@
+{
+	"name": "Compost box",
+	"type": "GenericCrafter",
+	"description": "Makes compost",
+	"hasPower": false,
+	"size": 1,
+	"hasLiquids": false,
+	"craftTime": 70,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "banana", "amount": 2 }
+			]
+		},
+	},
+	"requirements": [
+		{"item": "copper", "amount": 40},
+		{"item": "lead", "amount": 60}
+	],
+	"category": "crafting",
+	"research": "raps-farm",
+	"idleSound": "respawning",
+	"outputItem": {"item": "compost", "amount": 1}
+}

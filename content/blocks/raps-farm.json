@@ -1,7 +1,7 @@
 {
-	"name": "Raps farm",
+	"name": "Rape farm",
 	"type": "GenericCrafter",
-	"description": "Just grows raps",
+	"description": "Just grows rape",
 	"liquidCapacity": 40,
 	"hasPower": true,
 	"size": 2,
@@ -12,9 +12,10 @@
 		"power": 3.2,
 		"liquid": {
 			"liquid": "water",
-			"amount": 0.8,
+			"amount": 0.3,
 			"booster": false
-		}
+		},
+		"item":"compost"
 	},
 	"requirements": [
 		{ "item": "silicon", "amount": 71 },
