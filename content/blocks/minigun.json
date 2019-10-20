@@ -6,18 +6,27 @@
 	"targetGround": true,
 	"size": 2,
 	"inaccuracy": 2,
-	"reload": 7,
+	"reload": 8,
 	"shootCone": 1,
 	"rotateSpeed": 22,
 	"shots": 1,
 	"range": 120,
-	"burstSpacing": 6,
+	"burstSpacing": 2,
 	"ammo": {
 		"titanium": {
-			"speed": 10,
-			"damage": 19,
-			"bulletWidth": 1,
+			"speed": 9,
+			"damage": 13,
+			"bulletWidth": 2,
 			"bulletHeight": 5,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 16
+		},
+		"thorium": {
+			"speed": 8,
+			"damage": 22,
+			"bulletWidth": 3,
+			"bulletHeight": 6,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 16
