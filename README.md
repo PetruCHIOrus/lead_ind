@@ -22,3 +22,4 @@ Installation:
 * Напишите: PetruCHIOrus/lead_ind
 * Подождите...
 * И это всё?  Это было легко, правда?
+trello https://trello.com/b/8k0ygSAf/lead-ind-trello
