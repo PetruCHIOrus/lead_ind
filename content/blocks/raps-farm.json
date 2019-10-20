@@ -1,7 +1,7 @@
 {
-	"name": "Fitogen lamp",
+	"name": "Raps farm",
 	"type": "GenericCrafter",
-	"description": "Just grows bananas",
+	"description": "Just grows raps",
 	"liquidCapacity": 40,
 	"hasPower": true,
 	"size": 2,
@@ -9,7 +9,7 @@
 	"craftTime": 20,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-		"power": 3.0,
+		"power": 3.2,
 		"liquid": {
 			"liquid": "water",
 			"amount": 0.8,
@@ -17,11 +17,11 @@
 		}
 	},
 	"requirements": [
-		{ "item": "silicon", "amount": 60 },
-		{ "item": "copper", "amount": 130 }
+		{ "item": "silicon", "amount": 71 },
+		{ "item": "lead", "amount": 142 }
 	],
 	"category": "crafting",
 	"research": "water-extractor",
-	"idleSound": "respawning",
-	"outputItem": {"item": "banana", "amount": 1}
+	"activeSound": "respawning",
+	"outputItem": {"item": "raps", "amount": 1}
 }
