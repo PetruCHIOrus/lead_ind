@@ -1,0 +1,34 @@
+{
+	"type": "burstTurret",
+	"name": "minigun",
+	"description": "Shoots faster!",
+	"targetAir": true,
+	"targetGround": true,
+	"size": 2,
+	"inaccuracy": 2,
+	"reload": 7,
+	"shootCone": 1,
+	"rotateSpeed": 22,
+	"shots": 1,
+	"range": 120,
+	"burstSpacing": 6,
+	"ammo": {
+		"titanium": {
+			"speed": 10,
+			"damage": 19,
+			"bulletWidth": 1,
+			"bulletHeight": 5,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 16
+		}
+	},
+	"requirements": [
+		{ "item": "flesh", "amount": 30 },
+		{ "item": "lead", "amount": 15 },
+		{ "item": "titanium", "amount": 10 },
+		{ "item": "copper", "amount": 40 }
+	],
+	"category": "turret",
+	"research": "scatter"
+}
