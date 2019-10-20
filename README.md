@@ -21,5 +21,5 @@ Installation:
 * Сделайте "import from GitHub"
 * Напишите: PetruCHIOrus/lead_ind
 * Подождите...
-* И это всё?  Это было легко, правда?
+* И это всё?  Это было легко, правда?<br/>
 trello https://trello.com/b/8k0ygSAf/lead-ind-trello
