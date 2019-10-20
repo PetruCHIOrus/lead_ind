@@ -1,7 +1,7 @@
 {
 	"name": "Heavy graphite press",
 	"type": "GenericCrafter",
-	"description": "Huge graphite press",
+	"description": "Modified graphite press",
 	"hasPower": false,
 	"size": 2,
 	"hasLiquids": false,
