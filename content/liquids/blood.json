@@ -3,5 +3,5 @@
 	"description": "Clear blood",
 	"temperature": 0.001,
     "viscosity": 0.9,
-    "color": ff2400"
+    "color": "#9B0000"
 }
