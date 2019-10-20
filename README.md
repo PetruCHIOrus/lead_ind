@@ -1,7 +1,7 @@
 Hello! You are on the page of our mod!
 here you will find:
 * .json files from mod
-* sprites from mood
+* interesting sprites
 * And - oh Lord! The mod itself! can you imagine?
 Installation:
 * Open "mods" in game
@@ -13,12 +13,12 @@ Installation:
 ----------------------------------
 Здравствуйте!  Вы находитесь на странице нашего мода!
 здесь вы найдете:
-*.json файлы мода
-* Спрайты от настроения
-* И - о Боже!  Сам мод!  ты можешь представить?
+* .json файлы мода
+* Интересные спрайты
+* И - о Боже!  Сам мод!  Вы можете себе это представить?
  Установка:
-* Откройте "моды" в игре
-* Сделайте "импорт из GitHub"
-* Напишите: PetruCHIOrus / lead_ind
+* Откройте "mods" в игре
+* Сделайте "import from GitHub"
+* Напишите: PetruCHIOrus/lead_ind
 * Подождите...
-* Это все?  Это было легко, правда?
+* И это всё?  Это было легко, правда?
