@@ -1,6 +1,6 @@
 {
 	"type": "burstTurret",
-	"name": "minigun",
+	"name": "Minigun",
 	"description": "Shoots faster!",
 	"targetAir": true,
 	"targetGround": true,
