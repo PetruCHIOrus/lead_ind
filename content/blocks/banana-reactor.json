@@ -5,7 +5,7 @@
 	"itemCapacity": 20,
 	"size": 3,
 	"hasLiquids": false,
-    "powerProduction": 13,
+    "powerProduction": 4,
     "itemDuration" : 150,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
