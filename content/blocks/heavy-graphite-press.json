@@ -7,7 +7,7 @@
 	"hasLiquids": false,
 	"craftTime": 210,
 	"updateEffect": "smeltsmoke",
-	"itemCapacity": 14,
+	"itemCapacity": 20,
 	"consumes": {
 		"items": {
 			"items": [
