@@ -10,9 +10,9 @@
 "healPercent" : 18,
 "itemCapacity": 10,
 "power": 2.5,
-"consumes": {
-  "items":"phase-fabric"
-}
+"consumes": [
+  {"item":"phase-fabric"}
+]
 },
 "requirements": [
 { "item": "silicon", "amount": 200 },
