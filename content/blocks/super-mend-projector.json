@@ -8,7 +8,10 @@
 "reload" : 45,
 "range" : 180,
 "healPercent" : 18,
+"itemCapacity": 10,
 "consumes": {
+  "items":"phase-fabric"
+}
 "power": 2.5
 },
 "requirements": [
