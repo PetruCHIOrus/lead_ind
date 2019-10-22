@@ -2,14 +2,12 @@
 "name": "Ultimate mend projector",
 "description": "Super regeneration",
 "type": "mendProjector",
-"health": 3000,
+"health": 2000,
 "size": 3,
 "craftTime": 2,
 "reload" : 45,
-"range" : 300,
-"healPercent" : 21,
-"phaseBoost" : 0,
-"phaseRangeBoost" : 0,
+"range" : 180,
+"healPercent" : 18,
 "consumes": {
 "power": 2.5
 },
