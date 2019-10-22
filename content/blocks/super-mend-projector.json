@@ -11,7 +11,7 @@
 "itemCapacity": 10,
 "power": 2.5,
 "consumes": {
-   "item":"phase-fabric"
+   "item":"phase-fabric": "boost"
 },
 "requirements": [
 { "item": "silicon", "amount": 200 },
