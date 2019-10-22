@@ -6,10 +6,10 @@
 "size": 3,
 "craftTime": 2,
 "reload" : 45,
-"range" : 100,
+"range" : 300,
 "healPercent" : 21,
-"phaseBoost" : 30,
-"phaseRangeBoost" : 180,
+"phaseBoost" : 0,
+"phaseRangeBoost" : 0,
 "consumes": {
 "power": 2.5
 },
