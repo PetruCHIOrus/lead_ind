@@ -1,6 +1,6 @@
 {
 "name": "Super mend projector",
-"description": "Regen wall",
+"description": "Super regeneration",
 "type": "mendProjector",
 "health": 3000,
 "size": 2,
