@@ -1,0 +1,25 @@
+{
+"name": "Super mend projector",
+"description": "Regen wall",
+"type": "mendProjector",
+"health": 3000,
+"size": 2,
+"craftTime": 2,
+"reload" : 30,
+"range" : 1020,
+"healPercent" : 18,
+"phaseBoost" : ,
+"phaseRangeBoost" : 0,
+"consumes": {
+"power": 2.5
+},
+"requirements": [
+{ "item": "silicon", "amount": 200 },
+{ "item": "lead", "amount": 150 },
+{ "item": "graphite", "amount": 100 },
+{ "item": "plastanium", "amount": 50 },
+{ "item": "titanium", "amount": 100 }
+],
+"category": "defense",
+"research": "mend-projector"
+}
