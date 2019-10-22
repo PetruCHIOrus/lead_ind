@@ -8,8 +8,8 @@
 "reload" : 30,
 "range" : 1020,
 "healPercent" : 18,
-"phaseBoost" : ,
-"phaseRangeBoost" : 0,
+"phaseBoost" : 30,
+"phaseRangeBoost" : 180,
 "consumes": {
 "power": 2.5
 },
