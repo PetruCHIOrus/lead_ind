@@ -5,10 +5,12 @@
 "health": 2000,
 "size": 3,
 "craftTime": 2,
-"reload" : 45,
+"reload" : 200,
 "range" : 150,
 "healPercent" : 18,
 "itemCapacity": 10,
+"phaseBoost" : 10,
+"phaseRangeBoost" : 10,
 "power": 2.5,
 "requirements": [
 { "item": "silicon", "amount": 200 },
