@@ -7,6 +7,7 @@
 	"size": 4,
 	"reload": 180,
 	"shootCone": 40,
+	"shootSound":"shootSnap",
 	"rotateSpeed": 1,
 	"shots": 1,
 	"range": 750,
