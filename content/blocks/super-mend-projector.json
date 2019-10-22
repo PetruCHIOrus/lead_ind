@@ -3,7 +3,7 @@
 "description": "Super regeneration",
 "type": "mendProjector",
 "health": 3000,
-"size": 2,
+"size": 3,
 "craftTime": 2,
 "reload" : 45,
 "range" : 1020,
