@@ -5,7 +5,7 @@
 	"liquidCapacity": 50,
 	"outputItem": {"item": "thorium", "amount": 1},
 	"hasPower": true,
-	"size": 3,
+	"size": 2,
 	"hasLiquids": true,
 	"craftTime": 10,
 	"updateEffect": "smeltsmoke",
