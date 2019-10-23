@@ -13,13 +13,13 @@
 		"power": 0.8,
 		"liquid": {
 			"liquid": "slag", 
-			"amount": 1.5,
+			"amount": 0.5,
 			"booster": false
 		},
 		"items": {
 			"items": [
-				{"item": "lead", "amount": 5},
-        {"item": "sand", "amount": 5}
+				{"item": "lead", "amount": 4},
+        {"item": "sand", "amount": 6}
 			]
 		}
 	},
