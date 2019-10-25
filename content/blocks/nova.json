@@ -24,8 +24,8 @@
 		"silicon": {
 			"speed": 20.0,
 			"damage": 290,
-			"homingPower" : 2,
-                        "homingRange" : 50,
+			"homingPower" : 3,
+                        "homingRange" : 189,
 			"bulletWidth": 14,
 			"bulletHeight": 19,
 			"shootEffect": "shootBig",
