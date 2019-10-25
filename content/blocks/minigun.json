@@ -5,10 +5,10 @@
 	"targetAir": true,
 	"targetGround": true,
 	"size": 2,
-	"inaccuracy": 2,
-	"reload": 10,
+	"inaccuracy": 4,
+	"reload": 7,
 	"shootCone": 1,
-	"rotateSpeed": 22,
+	"rotateSpeed": 10,
 	"shots": 1,
 	"range": 110,
 	"burstSpacing": 2,
@@ -23,7 +23,7 @@
 			"ammoMultiplier": 12
 		},
 		"silicon": {
-			"speed": 8,
+			"speed": 7,
 			"damage": 12,
 			"homingPower" : 2,
                         "homingRange" : 50,
