@@ -1,9 +1,9 @@
 {
-	"name": "Thorium fabric",
+	"name": "Thorium machine",
 	"type": "GenericCrafter",
 	"description": "Makes thorium",
 	"liquidCapacity": 50,
-	"outputItem": {"item": "thorium", "amount": 1},
+	"outputItem": {"item": "thorium", "amount": 2},
 	"hasPower": true,
 	"size": 2,
 	"hasLiquids": true,
@@ -13,7 +13,7 @@
 		"power": 0.8,
 		"liquid": {
 			"liquid": "slag", 
-			"amount": 0.5,
+			"amount": 0.15,
 			"booster": false
 		},
 		"items": {
