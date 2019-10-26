@@ -15,8 +15,8 @@
 		},
 	},
 	"requirements": [
-		{"item": "copper", "amount": 40},
-		{"item": "lead", "amount": 60}
+		{"item": "copper", "amount": 10},
+		{"item": "lead", "amount": 5}
 	],
 	"category": "crafting",
 	"research": "raps-farm",
