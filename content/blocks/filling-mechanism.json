@@ -1,0 +1,32 @@
+{
+	"name": "filling mechanism",
+	"type": "GenericCrafter",
+	"description": "Makes canisters with diesel",
+	"liquidCapacity": 50,
+	"hasPower": true,
+	"size": 2,
+	"hasLiquids": true,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.6,
+		"liquid": {
+			"liquid": "diesel", 
+			"amount": 1,
+			"booster": false
+		},
+		"items": {
+			"items": [
+				{"item": "scrap", "amount": 3}
+			]
+		}
+	},
+	"outputItem": {"item": "diesel-canister", "amount": 1},
+	"requirements": [
+		{ "item": "copper", "amount": 30 },
+		{ "item": "lead", "amount": 60 },
+		{ "item": "metaglass", "amount": 15 }
+	],
+	"category": "crafting",
+	"research": "differential-generator",
+}

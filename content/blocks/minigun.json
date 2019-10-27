@@ -26,7 +26,7 @@
 			"speed": 7,
 			"damage": 12,
 			"homingPower" : 2,
-                        "homingRange" : 50,
+			"homingRange" : 50,
 			"bulletWidth": 3,
 			"bulletHeight": 6,
 			"shootEffect": "shootSmall",
