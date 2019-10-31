@@ -3,7 +3,7 @@
 	"name": "Ultimate surge tower",
 	"description": "Big surge tower for long distances",
 	"category": "power",
-	"size": 2,
+	"size": 3,
 	"requirements": [
 		{"item": "copper", "amount": 200},
 		{"item": "surge-alloy", "amount": 125},
