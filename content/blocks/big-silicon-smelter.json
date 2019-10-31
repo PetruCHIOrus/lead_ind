@@ -1,0 +1,30 @@
+{
+	"name": "Big silicon smelter",
+	"type": "GenericCrafter",
+	"health": 930,
+	"description": "Big version of silicon smelter",
+	"hasPower": false,
+	"size": 3,
+	"hasLiquids": false,
+	"craftTime": 36.29,
+	"updateEffect": "smeltsmoke",
+	"itemCapacity": 20,
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 2 },
+				{ "item": "sand", "amount": 3 }
+			]
+		},
+		"power": 1.75
+	},
+	"requirements": [
+		{"item": "copper", "amount": 100},
+		{"item": "lead", "amount": 100},
+		{"item": "graphite", "amount": 100},
+		{"item": "silicon", "amount": 50}
+	],
+	"category": "crafting",
+	"research": "silicon-smelter",
+	"outputItem": {"item": "silicon", "amount": 3}
+}
