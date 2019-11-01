@@ -1,0 +1,16 @@
+{
+"name": "Universal Vault",
+"description": "Beautiful place.",
+"type": "Vault",
+"itemCapacity": 3000,
+"hasItems": true,
+"health": 2000,
+"size": 3,
+"requirements": [
+{ "item": "galactical-steel", "amount": 20 },
+{ "item": "plastanium", "amount": 60 },
+{ "item": "lead", "amount": 40 }
+],
+"category": "effect",
+"research": "vault"
+}

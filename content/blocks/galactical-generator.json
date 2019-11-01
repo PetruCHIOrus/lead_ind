@@ -1,0 +1,26 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "Galactic Generator",
+	"description": "very economical and powerful internal combustion generator",
+	"size": 1,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 150,
+	"powerProduction": 3.0,
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 1 }
+			],
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "galactical-steel", "amount": 25 },
+		{ "item": "silicon", "amount": 25 },
+		{ "item": "lead", "amount": 50 }
+	],
+	"category": "power",
+	"research": "turbine-generator"
+}
+

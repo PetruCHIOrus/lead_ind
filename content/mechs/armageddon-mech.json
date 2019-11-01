@@ -1,0 +1,19 @@
+{
+  "name": "Armageddon",
+  "description": "Quite a dangerous combat unit, with a large margin of health.",
+  "speed": 0.2,
+  "boostSpeed": 0.7,
+  "buildPower": 3.0,
+  "engineColor": "FFE867",
+  "flying": false,
+  "health": 1500,
+  "weaponOffsetX": 1.6,
+  "weaponOffsetY": -0.4,
+  "weapon": {
+    "name": "danger-blaster",
+    "length": 1.9,
+    "reload": 25,
+    "alternate": false,
+    "bullet": "meltdownLaser"
+  }
+}

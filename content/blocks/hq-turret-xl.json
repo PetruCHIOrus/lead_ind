@@ -1,0 +1,40 @@
+{
+	"type": "doubleTurret",
+	"name": "Galactical gun",
+	"description": "large reinforced long-range turret",
+	"targetAir": true,
+	"targetGround": true,
+	"inaccuracy": 20,
+	"size": 3,
+	"reload": 8,
+	"shootCone": 40,
+	"shootSound":"shootBig",
+	"rotateSpeed": 10,
+	"shots": 1,
+	"range": 240,
+	"burstSpacing": 15,
+	"ammo": {
+		"galactical-steel": {
+			"speed": 5.5,
+			"damage": 80,
+			"homingPower" : 2,
+			"homingRange" : 150,
+			"backColor":"FF00FF",
+			"frontColor":"FF00FF",
+			"bulletWidth": 12,
+			"bulletHeight": 9,
+			"shootEffect": "hitLancer",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 225 },
+		{ "item": "galactical-steel", "amount": 125 },
+		{ "item": "silicon", "amount": 150 },
+		{ "item": "plastanium", "amount": 50 },
+		{ "item": "surge-alloy", "amount": 100 },
+		{ "item": "thorium", "amount": 75 }
+	],
+	"category": "turret",
+	"research": "hq-turret"
+}
