@@ -1,6 +1,6 @@
 {
 	"type": "Conveyor",
-	"name": "Electrum conveyor",
+	"name": "Galactical conveyor",
 	"description": "Galaxy conveyor!",
 	"requirements": [
 		{"item": "titanium", "amount": 1},
