@@ -1,0 +1,33 @@
+{
+	"name": "Galactical steel smelter",
+	"type": "GenericCrafter",
+	"description": "Best Technologies in 1 smelter",
+	"hasPower": true,
+	"size": 3,
+	"hasLiquids": false,
+	"craftTime": 105,
+	"updateEffect": "smeltsmoke",
+	"itemCapacity": 20,
+	"consumes": {
+		"power": 3.5,
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 2 },
+				{ "item": "plastanium", "amount": 1},
+				{ "item": "thorium", "amount": 1}
+			]
+		},
+	},
+	"requirements": [
+		{"item": "copper", "amount": 100},
+		{"item": "plastanium", "amount": 100},
+		{"item": "titanium", "amount": 100},
+		{"item": "thorium", "amount": 100},
+		{"item": "silicon", "amount": 100},
+		{"item": "graphite", "amount": 100},
+		{"item": "lead", "amount": 100}
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"outputItem": {"item": "galactical-steel", "amount": 1}
+}

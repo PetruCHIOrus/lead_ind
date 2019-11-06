@@ -1,0 +1,44 @@
+{
+	"type": "burstTurret",
+	"name": "grasshopper",
+	"description": "small bad turret",
+	"targetAir": false,
+	"targetGround": true,
+	"size": 1,
+	"inaccuracy": 20,
+	"reload": 70,
+	"shootCone": 20,
+	"rotateSpeed": 12,
+	"shots": 5,
+	"range": 70,
+	"burstSpacing": 0,
+	"ammo": {
+		"lead": {
+			"speed": 2,
+			"damage": 8,
+			"bulletWidth": 5,
+			"bulletHeight": 7,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1
+		},
+		"silicon": {
+			"speed": 3,
+			"damage": 8,
+			"homingPower" : 3,
+			"homingRange" : 40,
+			"bulletWidth": 6,
+			"bulletHeight": 8,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2
+		}
+	},
+	"requirements": [
+		{ "item": "flesh", "amount": 5 },
+		{ "item": "lead", "amount": 10 },
+		{ "item": "copper", "amount": 25 }
+	],
+	"category": "turret",
+	"research": "duo"
+}

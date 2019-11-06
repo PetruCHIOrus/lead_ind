@@ -1,0 +1,39 @@
+{
+	"type": "burstTurret",
+	"name": "Galactical turret",
+	"description": "powerful galactic turret",
+	"targetAir": true,
+	"targetGround": true,
+	"inaccuracy": 40,
+	"size": 2,
+	"reload": 15,
+	"shootCone": 40,
+	"shootSound":"shootBig",
+	"rotateSpeed": 10,
+	"shots": 1,
+	"range": 150,
+	"burstSpacing": 10,
+	"ammo": {
+		"galactical-steel": {
+			"speed": 4.0,
+			"damage": 40,
+			"homingPower" : 3,
+			"homingRange" : 90,
+			"backColor":"FF00FF",
+			"frontColor":"FF00FF",
+			"bulletWidth": 10,
+			"bulletHeight": 8,
+			"shootEffect": "hitLancer",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 3}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 175 },
+		{ "item": "galactical-steel", "amount": 75 },
+		{ "item": "silicon", "amount": 100 },
+		{ "item": "plastanium", "amount": 25 },
+		{ "item": "thorium", "amount": 25 }
+	],
+	"category": "turret",
+	"research": "ripple"
+}

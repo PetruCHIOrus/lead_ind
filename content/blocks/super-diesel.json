@@ -1,0 +1,26 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "Super diesel",
+	"description": "Just best place for your diesel",
+	"itemCapacity": 20,
+	"size": 5,
+	"hasLiquids": true,
+    "powerProduction": 166.6,
+    "itemDuration" : 150,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"item": "diesel-canister",
+		"liquid": {
+			"liquid": "bioil", 
+			"amount": 0.2,
+			"booster": false
+		},
+    },
+	"requirements": [
+		{"item": "titanium", "amount": 90},
+		{"item": "copper", "amount": 250},
+		{"item": "silicon", "amount": 105}
+	],
+	"category": "power",
+	"research": "thermal-generator"
+}

@@ -4,7 +4,7 @@
   "type": "wall",
   "health": 625,
   "size": 1,
-  "craftTime": 0.09,
+  "buildTime": 7,
   "requirements": [
 		{ "item": "flesh", "amount": 6 }
 	],

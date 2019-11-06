@@ -1,12 +1,13 @@
 {
 	"name": "Heavy graphite press",
 	"type": "GenericCrafter",
-	"description": "Huge graphite press",
+	"description": "Modified graphite press",
 	"hasPower": false,
 	"size": 2,
 	"hasLiquids": false,
-	"craftTime": 210,
+	"craftTime": 300,
 	"updateEffect": "smeltsmoke",
+	"itemCapacity": 20,
 	"consumes": {
 		"items": {
 			"items": [
@@ -15,7 +16,7 @@
 		},
 	},
 	"requirements": [
-		{"item": "copper", "amount": 125},
+		{"item": "copper", "amount": 175},
 		{"item": "lead", "amount": 300}
 	],
 	"category": "crafting",

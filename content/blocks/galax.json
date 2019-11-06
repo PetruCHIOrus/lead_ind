@@ -1,0 +1,26 @@
+{
+"name": "Galaxy drilling module",
+"description": "If one core is not enough...",
+"type": "Drill",
+"size": 3,
+"tier": 5,
+"drillTime": 7,
+"hasPower": true,
+"consumes": {
+"power": 2.5,
+"liquid": {
+"liquid": "water",
+"amount": 0.1,
+"booster": true,
+"optional": true
+}
+},
+"requirements": [
+{ "item": "copper", "amount": 200 },
+{ "item": "lead", "amount": 200 },
+{ "item": "titanium", "amount": 100 },
+{ "item": "galactical-steel", "amount": 100 }
+],
+"category": "production",
+"research": "blast-drill"
+}

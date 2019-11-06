@@ -1,0 +1,29 @@
+{
+	"name": "Lich factory",
+	"description": "tungsten assembly workshop",
+	"type": "UnitFactory",
+	"unitType": "lich",
+	"size": 4,
+	"maxSpawn": 1,
+	"produceTime": 7500,
+	"consumes": {
+		"power": 7.0,
+		"items": {
+			"items": [
+				{ "item": "wolframium", "amount": 100 },
+				{ "item": "silicon", "amount": 50 },
+				{ "item": "blast-compound", "amount": 25 }
+			]
+		},
+	},
+	"category": "units",
+	"research": "combustion-generator",
+	"requirements": [
+		{ "item": "lead", "amount": 300 },
+		{ "item": "plastanium", "amount": 150 },
+		{ "item": "silicon", "amount": 250 },
+		{ "item": "tungsten-parts", "amount": 125 },
+		{ "item": "titanium", "amount": 125 },
+		{ "item": "graphite", "amount": 175 }
+	]
+}

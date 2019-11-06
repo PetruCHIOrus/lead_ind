@@ -1,0 +1,38 @@
+{
+	"name": "Ultimate mend projector",
+	"description": "Super regeneration!",
+	"type": "mendProjector",
+	"health": 2000,
+	"size": 3,
+	"craftTime": 2,
+	"reload" : 200,
+	"range" : 150,
+	"healPercent" : 18,
+	"itemCapacity": 10,
+	"hasPower": true,
+	"phaseBoost" : 10,
+	"phaseRangeBoost" : 10,
+	"power": 2.5,
+	"consumes": {
+		"power": 2.5,
+		"items": {
+			"items": [
+				{
+					"item": "phase-fabric",
+					"amount": 1
+				}
+			],
+			"optional": true, 
+			"booster": true
+		}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "lead", "amount": 150 },
+		{ "item": "graphite", "amount": 100 },
+		{ "item": "plastanium", "amount": 50 },
+		{ "item": "titanium", "amount": 100 }
+	],
+	"category": "effect",
+	"research": "mend-projector"
+}

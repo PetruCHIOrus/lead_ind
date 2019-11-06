@@ -3,7 +3,7 @@
 	"type": "GenericCrafter",
 	"description": "Squeezes bioil from Rapeseed",
 	"liquidCapacity": 15,
-	"outputLiquid": {"liquid": "bioil", "amount": 1},
+	"outputLiquid": {"liquid": "bioil", "amount": 4},
 	"hasPower": true,
 	"size": 2,
 	"hasLiquids": true,

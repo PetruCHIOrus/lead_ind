@@ -1,0 +1,34 @@
+{
+	"name": "Thorium machine",
+	"type": "GenericCrafter",
+	"description": "Makes thorium",
+	"liquidCapacity": 50,
+	"outputItem": {"item": "thorium", "amount": 2},
+	"hasPower": true,
+	"size": 2,
+	"hasLiquids": true,
+	"craftTime": 90,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.8,
+		"liquid": {
+			"liquid": "slag", 
+			"amount": 0.15,
+			"booster": false
+		},
+		"items": {
+			"items": [
+				{"item": "lead", "amount": 4},
+        {"item": "sand", "amount": 6}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 100 },
+		{ "item": "lead", "amount": 150 },
+		{ "item": "silicon", "amount": 50 },
+    { "item": "titanium", "amount": 100 }
+	],
+	"category": "crafting",
+	"research": "melter",
+}

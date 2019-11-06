@@ -1,0 +1,14 @@
+{
+	"type": "Conveyor",
+	"name": "Galactical conveyor",
+	"description": "Galaxy conveyor!",
+	"requirements": [
+		{"item": "titanium", "amount": 1},
+		{"item": "plastanium", "amount": 3},
+		{"item": "lead", "amount": 5},
+		{"item": "galactical-steel", "amount": 1}
+	],
+	"category": "distribution",
+	"speed": 0.20,
+	"research": "titanium-conveyor"
+}

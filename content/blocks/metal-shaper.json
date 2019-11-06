@@ -1,0 +1,28 @@
+{
+	"name": "Metal shaper",
+	"type": "GenericCrafter",
+	"description": "Makes heavy-duty tungsten parts",
+	"hasPower": true,
+	"size": 2,
+	"hasLiquids": false,
+	"craftTime": 120,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2.0,
+		"items": {
+			"items": [
+				{ "item": "wolframium", "amount": 3 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 40 },
+		{"item": "lead", "amount": 100},
+		{"item": "titanium", "amount": 60},
+		{"item": "wolframium", "amount": 100}
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"idleSound": "respawning",
+	"outputItem": {"item": "tungsten-parts", "amount": 2}
+}

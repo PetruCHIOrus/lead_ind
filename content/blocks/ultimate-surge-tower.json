@@ -1,0 +1,17 @@
+{
+	"type": "PowerNode",
+	"name": "Ultimate surge tower",
+	"description": "Big surge tower for long distances",
+	"category": "power",
+	"size": 3,
+	"requirements": [
+		{"item": "copper", "amount": 200},
+		{"item": "surge-alloy", "amount": 125},
+		{"item": "titanium", "amount": 100},
+		{"item": "silicon", "amount": 100},
+		{"item": "lead", "amount": 100}
+	],
+	"research": "surge-tower",
+	"laserRange": 100,
+	"maxNodes": 6
+}

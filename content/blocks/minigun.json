@@ -5,35 +5,37 @@
 	"targetAir": true,
 	"targetGround": true,
 	"size": 2,
-	"inaccuracy": 2,
-	"reload": 10,
+	"inaccuracy": 3,
+	"reload": 6,
 	"shootCone": 1,
-	"rotateSpeed": 22,
+	"rotateSpeed": 5,
 	"shots": 1,
 	"range": 110,
 	"burstSpacing": 2,
 	"ammo": {
 		"titanium": {
 			"speed": 9,
-			"damage": 10,
+			"damage": 18,
 			"bulletWidth": 2,
 			"bulletHeight": 5,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 12
+			"ammoMultiplier": 8
 		},
 		"silicon": {
-			"speed": 8,
-			"damage": 12,
+			"speed": 7,
+			"damage": 21,
+			"homingPower" : 2,
+			"homingRange" : 50,
 			"bulletWidth": 3,
 			"bulletHeight": 6,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 10
+			"ammoMultiplier": 12
 		},
 		"thorium": {
 			"speed": 8,
-			"damage": 20,
+			"damage": 30,
 			"bulletWidth": 4,
 			"bulletHeight": 7,
 			"shootEffect": "shootSmall",

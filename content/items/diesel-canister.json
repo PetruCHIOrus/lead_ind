@@ -1,0 +1,9 @@
+{
+	"type": "resource",
+	"name": "Diesel canister",
+	"description": "The same diesel, but in a canister",
+	"cost": 0,
+	"color": "004f13",
+	"flammability": 0.5,
+	"explosiveness": 0.5
+}
