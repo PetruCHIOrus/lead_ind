@@ -1,0 +1,27 @@
+{
+	"name": "Pyromaniac factory",
+	"description": "Makes flying arsonists.",
+	"type": "UnitFactory",
+	"unitType": "pyromaniac",
+	"size": 2,
+	"maxSpawn": 2,
+	"produceTime": 450,
+	"consumes": {
+		"power": 1.2,
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 10 },
+				{ "item": "pyratite", "amount": 5 }
+			]
+		},
+	},
+	"category": "units",
+	"research": "combustion-generator",
+	"requirements": [
+		{ "item": "lead", "amount": 45 },
+		{ "item": "copper", "amount": 45 },
+		{ "item": "silicon", "amount": 35 },
+		{ "item": "titanium", "amount": 40 },
+		{ "item": "graphite", "amount": 40 }
+	]
+}

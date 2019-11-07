@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "Tungsten parts",
+	"description": "Universal material used to create powerful tools and strong structures",
+	"cost": 4,
+	"color": "91C7C7"
+}

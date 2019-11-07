@@ -1,0 +1,13 @@
+{
+	"name": "Huge tungsten wall",
+  "description": "Very strong wall",
+  "type": "wall",
+  "health": 11000,
+  "size": 3,
+  "buildTime": 63,
+  "requirements": [
+		{ "item": "wolframium", "amount": 54 }
+	],
+  "category": "defense",
+  "research": "thorium-wall"
+}

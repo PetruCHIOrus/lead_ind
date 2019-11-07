@@ -1,0 +1,19 @@
+{
+"name": "Tungsten core",
+"description": "After construction, it is impossible to remove it, so be careful when using a fake kernel.",
+"type": "coreBlock",
+"hasItems": true,
+"itemCapacity": 4000,
+"health": 1100,
+"size": 3,
+"requirements": [
+{ "item": "silicon", "amount": 1000 },
+{ "item": "lead", "amount": 1000 },
+{ "item": "titanium", "amount": 1000 },
+{ "item": "copper", "amount": 1000 },
+{ "item": "plastanium", "amount": 1000 },
+{ "item": "tungsten-parts", "amount": 1000 }
+],
+"category": "effect",
+"research": "launch-pad"
+}

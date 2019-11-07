@@ -1,0 +1,19 @@
+{
+	"type": "flyingUnit",
+	"name": "Pyromaniac",
+	"description": "Dangerous combat unit capable of setting fire to enemy buildings",
+	"speed": 0.12,
+	"flying": true,
+	"health": 150,
+	"engineOffset": 1.8,
+	"weaponOffsetY": -2.0,
+	"weaponOffsetX": 0.4,
+	"range": 240,
+	"weapon": {
+		"name": "pyromaniac-blaster",
+		"length": 1.3,
+		"reload": 8,
+		"alternate": true,
+		"bullet": "pyraFlame"
+	}
+}

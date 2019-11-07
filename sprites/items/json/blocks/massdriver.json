@@ -1,0 +1,23 @@
+{
+"type": "massDriver",
+"name" : "Tungsten mass driver",
+"description": "Compact electromagnetic catapult",
+"hasPower": true,
+"size" : 2,
+"consumes": {
+	"power": 1.25
+	}, 
+"itemCapacity" : 70,
+"reloadTime" : 110,
+"buildTime": 210,
+"range": 300,
+"requirements": [
+{ "item": "silicon", "amount": 40 },
+{ "item": "graphite", "amount": 40 },
+{ "item": "lead", "amount": 50 },
+{ "item": "copper", "amount": 50 },
+{ "item": "tungsten-parts", "amount": 15 }
+],
+"category": "distribution",
+"research": "tungsten-wall-small"
+}
