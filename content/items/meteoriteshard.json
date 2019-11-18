@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "Meteorite shard",
+	"description": "A rare galactical resource",
+	"hardness": 4,
+	"cost": 2.0,
+	"color": "513451"
+}

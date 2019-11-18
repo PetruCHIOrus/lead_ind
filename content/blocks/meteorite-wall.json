@@ -1,0 +1,13 @@
+{
+	"name": "Big meteorite wall",
+  "description": "Big mistery wall",
+  "type": "wall",
+  "health": 710,
+  "size": 2,
+  "buildTime": 26,
+  "requirements": [
+		{ "item": "meteoriteshard", "amount": 24 }
+	],
+  "category": "defense",
+  "research": "meteorite-wall-s"
+}

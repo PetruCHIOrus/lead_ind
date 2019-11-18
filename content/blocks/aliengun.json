@@ -1,0 +1,34 @@
+{
+	"type": "burstTurret",
+	"name": "Alien turret",
+	"description": "MISTERY turret",
+	"targetAir": true,
+	"targetGround": true,
+	"size": 2,
+	"inaccuracy": 5,
+	"reload": 45,
+	"shootCone": 20,
+	"rotateSpeed": 12,
+	"shots": 3,
+	"range": 210,
+	"burstSpacing": 3,
+	"ammo": {
+		"meteoriteshard": {
+			"speed": 4,
+			"damage": 42,
+			"bulletWidth": 8,
+			"bulletHeight": 9,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2
+		}
+	},
+	"requirements": [
+		{ "item": "meteoriteshard", "amount": 40 },
+		{ "item": "lead", "amount": 30 },
+		{ "item": "titanium", "amount": 25},
+		{ "item": "copper", "amount": 20 }
+	],
+	"category": "turret",
+	"research": "duo"
+}
