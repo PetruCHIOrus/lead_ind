@@ -1,0 +1,50 @@
+{
+  category: turret
+  chargeBeginEffect: lancerLaserChargeBegin
+  chargeEffect: lancerLaserCharge
+  chargeEffects: 7
+  chargeMaxDelay: 30
+  chargeTime: 50
+  cooldown: 2
+  description: lightning fast rate of fire! high damage and a large radius of attack, but the turret is quite fragile, and requires a lot of energy
+  health: 1500
+  heatColor: ff0000
+  lightningLength: 23
+  name: Shark
+  powerUse: 4
+  range: 130
+  recoil: 1
+  reload: 8
+  requirements:
+  [
+    {
+      amount: 35
+      item: silicon
+    }
+    {
+      amount: 70
+      item: titanium
+    }
+    {
+      amount: 150
+      item: lead
+    }
+    {
+      amount: 100
+      item: copper
+    }
+    {
+      amount: 50
+      item: tungsten-parts
+    }
+  ]
+  research: arc
+  rotatespeed: 12
+  shootShake: 0.3
+  shootSound: spark
+  shootType: arc
+  size: 3
+  targeAir: true
+  targeGround: true
+  type: ChargeTurret
+}

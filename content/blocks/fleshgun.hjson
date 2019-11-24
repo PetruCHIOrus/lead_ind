@@ -1,0 +1,49 @@
+{
+  ammo:
+  {
+    flesh:
+    {
+      ammoMultiplier: 4
+      bulletHeight: 9
+      bulletWidth: 7
+      damage: 19
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      speed: 3.5
+    }
+  }
+  burstSpacing: 6
+  category: turret
+  description: Shoots fleshy. Danger!
+  inaccuracy: 12
+  name: Fleshgun
+  range: 162
+  reload: 18
+  requirements:
+  [
+    {
+      amount: 35
+      item: flesh
+    }
+    {
+      amount: 50
+      item: lead
+    }
+    {
+      amount: 40
+      item: titanium
+    }
+    {
+      amount: 25
+      item: copper
+    }
+  ]
+  research: duo
+  rotateSpeed: 22
+  shootCone: 40
+  shots: 4
+  size: 2
+  targetAir: false
+  targetGround: true
+  type: burstTurret
+}

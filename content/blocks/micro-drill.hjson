@@ -1,0 +1,35 @@
+{
+  category: production
+  consumes:
+  {
+    liquid:
+    {
+      amount: 0.02
+      booster: true
+      liquid: water
+      optional: true
+    }
+  }
+  description: Microdrill 1x1 for some cases
+  drillTime: 600
+  name: Microdrill
+  requirements:
+  [
+    {
+      amount: 4
+      item: copper
+    }
+    {
+      amount: 4
+      item: lead
+    }
+    {
+      amount: 4
+      item: graphite
+    }
+  ]
+  research: graphite-press
+  size: 1
+  tier: 2
+  type: Drill
+}

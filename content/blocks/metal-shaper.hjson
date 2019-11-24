@@ -1,0 +1,51 @@
+{
+  category: crafting
+  consumes:
+  {
+    items:
+    {
+      items:
+      [
+        {
+          amount: 3
+          item: wolframium
+        }
+      ]
+    }
+    power: 2
+  }
+  craftTime: 120
+  description: Makes heavy-duty tungsten parts
+  hasLiquids: false
+  hasPower: true
+  idleSound: respawning
+  name: Metal shaper
+  outputItem:
+  {
+    amount: 2
+    item: tungsten-parts
+  }
+  requirements:
+  [
+    {
+      amount: 40
+      item: silicon
+    }
+    {
+      amount: 100
+      item: lead
+    }
+    {
+      amount: 60
+      item: titanium
+    }
+    {
+      amount: 100
+      item: wolframium
+    }
+  ]
+  research: graphite-press
+  size: 2
+  type: GenericCrafter
+  updateEffect: smeltsmoke
+}

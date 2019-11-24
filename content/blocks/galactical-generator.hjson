@@ -1,0 +1,41 @@
+{
+  category: power
+  consumes:
+  {
+    items:
+    {
+      items:
+      [
+        {
+          amount: 1
+          item: coal
+        }
+      ]
+      optional: true
+    }
+  }
+  description: very economical and powerful internal combustion generator
+  hasItems: true
+  hasPower: true
+  itemDuration: 150
+  name: Galactic Generator
+  powerProduction: 3
+  requirements:
+  [
+    {
+      amount: 25
+      item: galactical-steel
+    }
+    {
+      amount: 25
+      item: silicon
+    }
+    {
+      amount: 50
+      item: lead
+    }
+  ]
+  research: turbine-generator
+  size: 1
+  type: SingleTypeGenerator
+}

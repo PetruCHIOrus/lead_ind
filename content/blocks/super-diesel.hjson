@@ -1,0 +1,38 @@
+{
+  category: power
+  consumes:
+  {
+    item: diesel-canister
+    liquid:
+    {
+      amount: 0.2
+      booster: false
+      liquid: bioil
+    }
+  }
+  description: Just best place for your diesel
+  hasLiquids: true
+  itemCapacity: 20
+  itemDuration: 150
+  name: Super diesel
+  powerProduction: 166.6
+  requirements:
+  [
+    {
+      amount: 90
+      item: titanium
+    }
+    {
+      amount: 250
+      item: copper
+    }
+    {
+      amount: 105
+      item: silicon
+    }
+  ]
+  research: thermal-generator
+  size: 5
+  type: SingleTypeGenerator
+  updateEffect: smeltsmoke
+}

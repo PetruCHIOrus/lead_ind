@@ -1,0 +1,8 @@
+{
+  Radioactivity: 4
+  color: f0f0f0
+  cost: 0
+  description: Radioactive thing
+  name: Plutonium
+  type: resource
+}

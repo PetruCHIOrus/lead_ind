@@ -1,0 +1,17 @@
+{
+  buildTime: 26
+  category: defense
+  description: Big mistery wall
+  health: 710
+  name: Big meteorite wall
+  requirements:
+  [
+    {
+      amount: 24
+      item: meteoriteshard
+    }
+  ]
+  research: meteorite-wall-s
+  size: 2
+  type: wall
+}

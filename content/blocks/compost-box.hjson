@@ -1,0 +1,42 @@
+{
+  category: crafting
+  consumes:
+  {
+    items:
+    {
+      items:
+      [
+        {
+          amount: 2
+          item: banana
+        }
+      ]
+    }
+  }
+  craftTime: 70
+  description: Makes compost
+  hasLiquids: false
+  hasPower: false
+  idleSound: respawning
+  name: Compost box
+  outputItem:
+  {
+    amount: 1
+    item: compost
+  }
+  requirements:
+  [
+    {
+      amount: 10
+      item: copper
+    }
+    {
+      amount: 5
+      item: lead
+    }
+  ]
+  research: raps-farm
+  size: 1
+  type: GenericCrafter
+  updateEffect: smeltsmoke
+}

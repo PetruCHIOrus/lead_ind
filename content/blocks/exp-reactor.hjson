@@ -1,0 +1,42 @@
+{
+  category: power
+  consumes:
+  {
+    item: plutonium
+    liquid:
+    {
+      amount: 0.07
+      liquid: heavy-water
+    }
+  }
+  description: Experimental, non-tested reactor
+  hasLiquids: true
+  heating: 0.01
+  itemCapacity: 50
+  itemDuration: 200
+  name: Experimental reactor
+  powerProduction: 60
+  requirements:
+  [
+    {
+      amount: 100
+      item: titanium
+    }
+    {
+      amount: 250
+      item: phase-fabric
+    }
+    {
+      amount: 150
+      item: silicon
+    }
+    {
+      amount: 40
+      item: surge-alloy
+    }
+  ]
+  research: thermal-generator
+  size: 4
+  type: NuclearReactor
+  updateEffect: smeltsmoke
+}

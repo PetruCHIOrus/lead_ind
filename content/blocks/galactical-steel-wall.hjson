@@ -1,0 +1,16 @@
+{
+  category: defense
+  description: A galactical hardness wall.
+  health: 1500
+  name: Galactical Steel Wall
+  requirements:
+  [
+    {
+      amount: 6
+      item: galactical-steel
+    }
+  ]
+  research: copper-wall
+  size: 1
+  type: Wall
+}

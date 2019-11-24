@@ -1,0 +1,41 @@
+{
+  category: production
+  consumes:
+  {
+    liquid:
+    {
+      amount: 0.1
+      booster: true
+      liquid: water
+      optional: true
+    }
+    power: 2.5
+  }
+  description: If one core is not enough...
+  drillTime: 7
+  hasPower: true
+  name: Galaxy drilling module
+  requirements:
+  [
+    {
+      amount: 200
+      item: copper
+    }
+    {
+      amount: 200
+      item: lead
+    }
+    {
+      amount: 100
+      item: titanium
+    }
+    {
+      amount: 100
+      item: galactical-steel
+    }
+  ]
+  research: blast-drill
+  size: 3
+  tier: 5
+  type: Drill
+}

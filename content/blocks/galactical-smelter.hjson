@@ -1,0 +1,71 @@
+{
+  category: crafting
+  consumes:
+  {
+    items:
+    {
+      items:
+      [
+        {
+          amount: 2
+          item: titanium
+        }
+        {
+          amount: 1
+          item: plastanium
+        }
+        {
+          amount: 1
+          item: thorium
+        }
+      ]
+    }
+    power: 3.5
+  }
+  craftTime: 105
+  description: Best Technologies in 1 smelter
+  hasLiquids: false
+  hasPower: true
+  itemCapacity: 20
+  name: Galactical steel smelter
+  outputItem:
+  {
+    amount: 1
+    item: galactical-steel
+  }
+  requirements:
+  [
+    {
+      amount: 100
+      item: copper
+    }
+    {
+      amount: 100
+      item: plastanium
+    }
+    {
+      amount: 100
+      item: titanium
+    }
+    {
+      amount: 100
+      item: thorium
+    }
+    {
+      amount: 100
+      item: silicon
+    }
+    {
+      amount: 100
+      item: graphite
+    }
+    {
+      amount: 100
+      item: lead
+    }
+  ]
+  research: graphite-press
+  size: 3
+  type: GenericCrafter
+  updateEffect: smeltsmoke
+}

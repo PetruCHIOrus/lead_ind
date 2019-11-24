@@ -1,0 +1,56 @@
+{
+  category: crafting
+  consumes:
+  {
+    items:
+    {
+      items:
+      [
+        {
+          amount: 2
+          item: coal
+        }
+        {
+          amount: 3
+          item: sand
+        }
+      ]
+    }
+    power: 1.75
+  }
+  craftTime: 36.29
+  description: Big version of silicon smelter
+  hasLiquids: false
+  hasPower: false
+  health: 930
+  itemCapacity: 20
+  name: Big silicon smelter
+  outputItem:
+  {
+    amount: 3
+    item: silicon
+  }
+  requirements:
+  [
+    {
+      amount: 100
+      item: copper
+    }
+    {
+      amount: 100
+      item: lead
+    }
+    {
+      amount: 100
+      item: graphite
+    }
+    {
+      amount: 50
+      item: silicon
+    }
+  ]
+  research: silicon-smelter
+  size: 3
+  type: GenericCrafter
+  updateEffect: smeltsmoke
+}

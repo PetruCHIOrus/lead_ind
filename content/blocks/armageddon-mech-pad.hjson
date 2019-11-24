@@ -1,0 +1,36 @@
+{
+  category: upgrade
+  consumes:
+  {
+    power: 2.5
+  }
+  description: Transform into the Armageddon mech.
+  mech: armageddon-mech
+  name: Armageddon mech pad
+  requirements:
+  [
+    {
+      amount: 200
+      item: lead
+    }
+    {
+      amount: 175
+      item: galactical-steel
+    }
+    {
+      amount: 150
+      item: silicon
+    }
+    {
+      amount: 125
+      item: graphite
+    }
+    {
+      amount: 100
+      item: titanium
+    }
+  ]
+  research: galactical-smelter
+  size: 2
+  type: MechPad
+}

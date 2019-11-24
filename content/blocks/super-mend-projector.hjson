@@ -1,0 +1,57 @@
+{
+  category: effect
+  consumes:
+  {
+    items:
+    {
+      booster: true
+      items:
+      [
+        {
+          amount: 1
+          item: phase-fabric
+        }
+      ]
+      optional: true
+    }
+    power: 2.5
+  }
+  craftTime: 2
+  description: Super regeneration!
+  hasPower: true
+  healPercent: 18
+  health: 2000
+  itemCapacity: 10
+  name: Ultimate mend projector
+  phaseBoost: 10
+  phaseRangeBoost: 10
+  power: 2.5
+  range: 150
+  reload: 200
+  requirements:
+  [
+    {
+      amount: 200
+      item: silicon
+    }
+    {
+      amount: 150
+      item: lead
+    }
+    {
+      amount: 100
+      item: graphite
+    }
+    {
+      amount: 50
+      item: plastanium
+    }
+    {
+      amount: 100
+      item: titanium
+    }
+  ]
+  research: mend-projector
+  size: 3
+  type: mendProjector
+}

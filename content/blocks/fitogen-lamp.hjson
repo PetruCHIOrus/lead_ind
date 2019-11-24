@@ -1,0 +1,40 @@
+{
+  category: crafting
+  consumes:
+  {
+    liquid:
+    {
+      amount: 0.8
+      booster: false
+      liquid: water
+    }
+    power: 3
+  }
+  craftTime: 20
+  description: Just grows bananas
+  hasLiquids: true
+  hasPower: true
+  idleSound: respawning
+  liquidCapacity: 40
+  name: Fitogen lamp
+  outputItem:
+  {
+    amount: 1
+    item: banana
+  }
+  requirements:
+  [
+    {
+      amount: 60
+      item: silicon
+    }
+    {
+      amount: 130
+      item: copper
+    }
+  ]
+  research: water-extractor
+  size: 2
+  type: GenericCrafter
+  updateEffect: smeltsmoke
+}

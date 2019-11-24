@@ -1,0 +1,47 @@
+{
+  category: production
+  consumes:
+  {
+    liquid:
+    {
+      amount: 0.1
+      booster: true
+      liquid: slag
+    }
+    power: 3
+  }
+  description: You personally will be bursting with the heat of this drill, so HOT
+  drillTime: 160
+  name: Heatdrill
+  requirements:
+  [
+    {
+      amount: 140
+      item: copper
+    }
+    {
+      amount: 70
+      item: graphite
+    }
+    {
+      amount: 100
+      item: titanium
+    }
+    {
+      amount: 50
+      item: silicon
+    }
+    {
+      amount: 50
+      item: lead
+    }
+    {
+      amount: 25
+      item: plastanium
+    }
+  ]
+  research: laser-drill
+  size: 5
+  tier: 4
+  type: Drill
+}

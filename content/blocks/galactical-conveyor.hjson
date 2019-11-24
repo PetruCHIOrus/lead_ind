@@ -1,0 +1,27 @@
+{
+  category: distribution
+  description: Galaxy conveyor!
+  name: Galactical conveyor
+  requirements:
+  [
+    {
+      amount: 1
+      item: titanium
+    }
+    {
+      amount: 3
+      item: plastanium
+    }
+    {
+      amount: 5
+      item: lead
+    }
+    {
+      amount: 1
+      item: galactical-steel
+    }
+  ]
+  research: titanium-conveyor
+  speed: 0.2
+  type: Conveyor
+}

@@ -1,0 +1,7 @@
+{
+  color: c2c2c2
+  cost: 0
+  description: Great remedy to grow something
+  name: Compost
+  type: resource
+}

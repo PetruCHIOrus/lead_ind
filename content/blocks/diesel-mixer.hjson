@@ -1,0 +1,53 @@
+{
+  category: crafting
+  consumes:
+  {
+    items:
+    {
+      items:
+      [
+        {
+          amount: 2
+          item: coal
+        }
+      ]
+    }
+    liquid:
+    {
+      amount: 1.5
+      booster: false
+      liquid: bioil
+    }
+    power: 0.8
+  }
+  craftTime: 10
+  description: Mixes great fuel
+  hasLiquids: true
+  hasPower: true
+  liquidCapacity: 50
+  name: Diesel mixer
+  outputLiquid:
+  {
+    amount: 20
+    liquid: diesel
+  }
+  requirements:
+  [
+    {
+      amount: 50
+      item: copper
+    }
+    {
+      amount: 40
+      item: lead
+    }
+    {
+      amount: 35
+      item: silicon
+    }
+  ]
+  research: melter
+  size: 3
+  type: GenericCrafter
+  updateEffect: smeltsmoke
+}

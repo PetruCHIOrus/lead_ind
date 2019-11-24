@@ -1,0 +1,26 @@
+{
+  category: effect
+  description: Beautiful place.
+  hasItems: true
+  health: 2000
+  itemCapacity: 3000
+  name: Universal Vault
+  requirements:
+  [
+    {
+      amount: 20
+      item: galactical-steel
+    }
+    {
+      amount: 60
+      item: plastanium
+    }
+    {
+      amount: 40
+      item: lead
+    }
+  ]
+  research: vault
+  size: 3
+  type: Vault
+}

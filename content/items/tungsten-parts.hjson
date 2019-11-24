@@ -1,0 +1,7 @@
+{
+  color: 91C7C7
+  cost: 4
+  description: Universal material used to create powerful tools and strong structures
+  name: Tungsten parts
+  type: material
+}

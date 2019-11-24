@@ -1,0 +1,17 @@
+{
+  buildTime: 13
+  category: defense
+  description: Small mistery wall
+  health: 2850
+  name: Small meteorite wall
+  requirements:
+  [
+    {
+      amount: 6
+      item: meteoriteshard
+    }
+  ]
+  research: titanium-wall
+  size: 1
+  type: wall
+}

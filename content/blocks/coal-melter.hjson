@@ -1,0 +1,39 @@
+{
+  category: crafting
+  consumes:
+  {
+    item: coal
+    power: 1
+  }
+  craftTime: 10
+  description: Melts coal to oil
+  hasLiquids: true
+  hasPower: true
+  idleSound: machine
+  liquidCapacity: 15
+  name: Coalmelter
+  outputLiquid:
+  {
+    amount: 3
+    liquid: oil
+  }
+  requirements:
+  [
+    {
+      amount: 60
+      item: silicon
+    }
+    {
+      amount: 10
+      item: titanium
+    }
+    {
+      amount: 120
+      item: copper
+    }
+  ]
+  research: coal-centrifuge
+  size: 2
+  type: GenericCrafter
+  updateEffect: smeltsmoke
+}

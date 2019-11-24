@@ -1,0 +1,17 @@
+{
+  buildTime: 7
+  category: defense
+  description: hardened flesh wall
+  health: 625
+  name: Wall of flesh
+  requirements:
+  [
+    {
+      amount: 6
+      item: flesh
+    }
+  ]
+  research: thorium-wall
+  size: 1
+  type: wall
+}

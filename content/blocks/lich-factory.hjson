@@ -1,0 +1,60 @@
+{
+  category: units
+  consumes:
+  {
+    items:
+    {
+      items:
+      [
+        {
+          amount: 100
+          item: wolframium
+        }
+        {
+          amount: 50
+          item: silicon
+        }
+        {
+          amount: 25
+          item: blast-compound
+        }
+      ]
+    }
+    power: 7
+  }
+  description: tungsten assembly workshop
+  maxSpawn: 1
+  name: Lich factory
+  produceTime: 7500
+  requirements:
+  [
+    {
+      amount: 300
+      item: lead
+    }
+    {
+      amount: 150
+      item: plastanium
+    }
+    {
+      amount: 250
+      item: silicon
+    }
+    {
+      amount: 125
+      item: tungsten-parts
+    }
+    {
+      amount: 125
+      item: titanium
+    }
+    {
+      amount: 175
+      item: graphite
+    }
+  ]
+  research: combustion-generator
+  size: 4
+  type: UnitFactory
+  unitType: lich
+}

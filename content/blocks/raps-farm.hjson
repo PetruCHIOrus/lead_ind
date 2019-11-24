@@ -1,0 +1,45 @@
+{
+  activeSound: respawning
+  category: crafting
+  consumes:
+  {
+    item: compost
+    liquid:
+    {
+      amount: 0.3
+      booster: false
+      liquid: water
+    }
+    power: 0.5
+  }
+  craftTime: 20
+  description: Just grows rape
+  hasLiquids: true
+  hasPower: true
+  liquidCapacity: 40
+  name: Rape farm
+  outputItem:
+  {
+    amount: 1
+    item: raps
+  }
+  requirements:
+  [
+    {
+      amount: 30
+      item: silicon
+    }
+    {
+      amount: 50
+      item: lead
+    }
+    {
+      amount: 70
+      item: copper
+    }
+  ]
+  research: water-extractor
+  size: 2
+  type: GenericCrafter
+  updateEffect: smeltsmoke
+}

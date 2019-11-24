@@ -1,0 +1,9 @@
+{
+  color: 004f13
+  cost: 0
+  description: The same diesel, but in a canister
+  explosiveness: 0.5
+  flammability: 0.5
+  name: Diesel canister
+  type: resource
+}

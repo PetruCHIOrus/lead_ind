@@ -1,7 +1,0 @@
-{
-	"type": "floor",
-	"name": "Silicon sand",
-	"itemDrop": "silicon",
-	"variants": 2,
-	"playerUnmineable": true
-}

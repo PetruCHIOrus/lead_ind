@@ -1,0 +1,58 @@
+{
+  ammo:
+  {
+    galactical-steel:
+    {
+      ammoMultiplier: 3
+      backColor: FF00FF
+      bulletHeight: 8
+      bulletWidth: 10
+      damage: 40
+      frontColor: FF00FF
+      homingPower: 3
+      homingRange: 90
+      shootEffect: hitLancer
+      smokeEffect: shootSmallSmoke
+      speed: 4
+    }
+  }
+  burstSpacing: 10
+  category: turret
+  description: powerful galactic turret
+  inaccuracy: 40
+  name: Galactical turret
+  range: 150
+  reload: 15
+  requirements:
+  [
+    {
+      amount: 175
+      item: copper
+    }
+    {
+      amount: 75
+      item: galactical-steel
+    }
+    {
+      amount: 100
+      item: silicon
+    }
+    {
+      amount: 25
+      item: plastanium
+    }
+    {
+      amount: 25
+      item: thorium
+    }
+  ]
+  research: ripple
+  rotateSpeed: 10
+  shootCone: 40
+  shootSound: shootBig
+  shots: 1
+  size: 2
+  targetAir: true
+  targetGround: true
+  type: burstTurret
+}

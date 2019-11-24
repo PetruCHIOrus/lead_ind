@@ -1,0 +1,38 @@
+{
+  category: effect
+  description: After construction, it is impossible to remove it, so be careful when using a fake kernel.
+  hasItems: true
+  health: 1100
+  itemCapacity: 4000
+  name: Tungsten core
+  requirements:
+  [
+    {
+      amount: 1000
+      item: silicon
+    }
+    {
+      amount: 1000
+      item: lead
+    }
+    {
+      amount: 1000
+      item: titanium
+    }
+    {
+      amount: 1000
+      item: copper
+    }
+    {
+      amount: 1000
+      item: plastanium
+    }
+    {
+      amount: 1000
+      item: tungsten-parts
+    }
+  ]
+  research: launch-pad
+  size: 3
+  type: coreBlock
+}

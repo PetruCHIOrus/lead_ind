@@ -1,0 +1,43 @@
+{
+  category: crafting
+  consumes:
+  {
+    liquid:
+    {
+      amount: 1.5
+      booster: true
+      liquid: water
+    }
+    power: 0.8
+  }
+  craftTime: 10
+  description: Mixes heavy water
+  hasLiquids: true
+  hasPower: true
+  liquidCapacity: 50
+  name: Heavy water mixer
+  outputLiquid:
+  {
+    amount: 1
+    liquid: heavy-water
+  }
+  requirements:
+  [
+    {
+      amount: 50
+      item: copper
+    }
+    {
+      amount: 40
+      item: lead
+    }
+    {
+      amount: 35
+      item: silicon
+    }
+  ]
+  research: melter
+  size: 2
+  type: GenericCrafter
+  updateEffect: smeltsmoke
+}

@@ -1,0 +1,53 @@
+{
+  category: crafting
+  consumes:
+  {
+    items:
+    {
+      items:
+      [
+        {
+          amount: 3
+          item: scrap
+        }
+      ]
+    }
+    liquid:
+    {
+      amount: 1
+      booster: false
+      liquid: diesel
+    }
+    power: 0.6
+  }
+  craftTime: 10
+  description: Makes canisters with diesel
+  hasLiquids: true
+  hasPower: true
+  liquidCapacity: 50
+  name: filling mechanism
+  outputItem:
+  {
+    amount: 1
+    item: diesel-canister
+  }
+  requirements:
+  [
+    {
+      amount: 30
+      item: copper
+    }
+    {
+      amount: 60
+      item: lead
+    }
+    {
+      amount: 15
+      item: metaglass
+    }
+  ]
+  research: differential-generator
+  size: 2
+  type: GenericCrafter
+  updateEffect: smeltsmoke
+}

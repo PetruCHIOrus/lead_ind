@@ -1,0 +1,34 @@
+{
+  category: power
+  consumes:
+  {
+    item: banana
+  }
+  description: Just the best place for your bananas
+  hasLiquids: false
+  idleSound: respawning
+  idleSoundVolume: 0.5
+  itemCapacity: 20
+  itemDuration: 150
+  name: Banana reactor
+  powerProduction: 4
+  requirements:
+  [
+    {
+      amount: 90
+      item: titanium
+    }
+    {
+      amount: 250
+      item: copper
+    }
+    {
+      amount: 105
+      item: silicon
+    }
+  ]
+  research: thermal-generator
+  size: 3
+  type: SingleTypeGenerator
+  updateEffect: smeltsmoke
+}

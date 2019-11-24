@@ -1,0 +1,52 @@
+{
+  category: units
+  consumes:
+  {
+    items:
+    {
+      items:
+      [
+        {
+          amount: 10
+          item: titanium
+        }
+        {
+          amount: 5
+          item: pyratite
+        }
+      ]
+    }
+    power: 1.2
+  }
+  description: Makes flying arsonists.
+  maxSpawn: 2
+  name: Pyromaniac factory
+  produceTime: 450
+  requirements:
+  [
+    {
+      amount: 45
+      item: lead
+    }
+    {
+      amount: 45
+      item: copper
+    }
+    {
+      amount: 35
+      item: silicon
+    }
+    {
+      amount: 40
+      item: titanium
+    }
+    {
+      amount: 40
+      item: graphite
+    }
+  ]
+  research: combustion-generator
+  size: 2
+  type: UnitFactory
+  unitType: pyromaniac
+}

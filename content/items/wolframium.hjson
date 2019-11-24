@@ -1,0 +1,8 @@
+{
+  color: AAE2E2
+  cost: 4
+  description: Very hard material used as ammunition for turrets that attack exclusively ground targets, and not only
+  hardness: 4
+  name: Wolframium
+  type: material
+}

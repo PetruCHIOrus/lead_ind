@@ -1,0 +1,20 @@
+{
+  boostSpeed: 0.7
+  buildPower: 3
+  description: Quite a dangerous combat unit, with a large margin of health.
+  engineColor: FFE867
+  flying: false
+  health: 1500
+  name: Armageddon
+  speed: 0.2
+  weapon:
+  {
+    alternate: false
+    bullet: meltdownLaser
+    length: 1.9
+    name: danger-blaster
+    reload: 25
+  }
+  weaponOffsetX: 1.6
+  weaponOffsetY: -0.4
+}

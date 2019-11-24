@@ -1,0 +1,57 @@
+{
+  ammo:
+  {
+    lead:
+    {
+      ammoMultiplier: 1
+      bulletHeight: 7
+      bulletWidth: 5
+      damage: 8
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      speed: 2
+    }
+    silicon:
+    {
+      ammoMultiplier: 2
+      bulletHeight: 8
+      bulletWidth: 6
+      damage: 8
+      homingPower: 3
+      homingRange: 40
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      speed: 3
+    }
+  }
+  burstSpacing: 0
+  category: turret
+  description: small bad turret
+  inaccuracy: 20
+  name: grasshopper
+  range: 70
+  reload: 70
+  requirements:
+  [
+    {
+      amount: 5
+      item: flesh
+    }
+    {
+      amount: 10
+      item: lead
+    }
+    {
+      amount: 25
+      item: copper
+    }
+  ]
+  research: duo
+  rotateSpeed: 12
+  shootCone: 20
+  shots: 5
+  size: 1
+  targetAir: false
+  targetGround: true
+  type: burstTurret
+}

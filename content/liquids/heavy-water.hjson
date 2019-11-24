@@ -1,0 +1,7 @@
+{
+  color: "434398"
+  description: Heavy-hydrogen water
+  name: Heavy water
+  temperature: 0.001
+  viscosity: 0.5
+}

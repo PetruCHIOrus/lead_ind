@@ -1,0 +1,33 @@
+{
+  category: power
+  description: Big surge tower for long distances
+  laserRange: 100
+  maxNodes: 6
+  name: Ultimate surge tower
+  requirements:
+  [
+    {
+      amount: 200
+      item: copper
+    }
+    {
+      amount: 125
+      item: surge-alloy
+    }
+    {
+      amount: 100
+      item: titanium
+    }
+    {
+      amount: 100
+      item: silicon
+    }
+    {
+      amount: 100
+      item: lead
+    }
+  ]
+  research: surge-tower
+  size: 3
+  type: PowerNode
+}

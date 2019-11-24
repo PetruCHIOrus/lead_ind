@@ -1,0 +1,7 @@
+{
+  itemDrop: silicon
+  name: Silicon sand
+  playerUnmineable: true
+  type: floor
+  variants: 2
+}

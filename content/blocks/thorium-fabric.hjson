@@ -1,0 +1,61 @@
+{
+  category: crafting
+  consumes:
+  {
+    items:
+    {
+      items:
+      [
+        {
+          amount: 4
+          item: lead
+        }
+        {
+          amount: 6
+          item: sand
+        }
+      ]
+    }
+    liquid:
+    {
+      amount: 0.15
+      booster: false
+      liquid: slag
+    }
+    power: 0.8
+  }
+  craftTime: 90
+  description: Makes thorium
+  hasLiquids: true
+  hasPower: true
+  liquidCapacity: 50
+  name: Thorium machine
+  outputItem:
+  {
+    amount: 2
+    item: thorium
+  }
+  requirements:
+  [
+    {
+      amount: 100
+      item: copper
+    }
+    {
+      amount: 150
+      item: lead
+    }
+    {
+      amount: 50
+      item: silicon
+    }
+    {
+      amount: 100
+      item: titanium
+    }
+  ]
+  research: melter
+  size: 2
+  type: GenericCrafter
+  updateEffect: smeltsmoke
+}

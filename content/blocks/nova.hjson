@@ -1,0 +1,71 @@
+{
+  ammo:
+  {
+    blast-compound:
+    {
+      ammoMultiplier: 3
+      bulletHeight: 21
+      bulletWidth: 13
+      damage: 340
+      shootEffect: shootBig
+      smokeEffect: lancerLaserShootSmoke
+      speed: 20
+    }
+    plastanium:
+    {
+      ammoMultiplier: 2
+      bulletHeight: 21
+      bulletWidth: 13
+      damage: 290
+      shootEffect: shootBig
+      smokeEffect: lancerLaserShootSmoke
+      speed: 22
+    }
+    silicon:
+    {
+      ammoMultiplier: 1
+      bulletHeight: 19
+      bulletWidth: 14
+      damage: 290
+      homingPower: 2
+      homingRange: 189
+      shootEffect: shootBig
+      smokeEffect: lancerLaserShootSmoke
+      speed: 21
+    }
+  }
+  burstSpacing: 6
+  category: turret
+  description: Shoots far
+  name: Nova
+  range: 750
+  reload: 180
+  requirements:
+  [
+    {
+      amount: 750
+      item: flesh
+    }
+    {
+      amount: 500
+      item: plastanium
+    }
+    {
+      amount: 750
+      item: silicon
+    }
+    {
+      amount: 500
+      item: thorium
+    }
+  ]
+  research: arc
+  rotateSpeed: 1
+  shootCone: 40
+  shootSound: shootBig
+  shots: 1
+  size: 4
+  targetAir: true
+  targetGround: true
+  type: burstTurret
+}

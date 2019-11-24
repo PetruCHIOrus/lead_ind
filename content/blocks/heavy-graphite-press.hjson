@@ -1,0 +1,42 @@
+{
+  category: crafting
+  consumes:
+  {
+    items:
+    {
+      items:
+      [
+        {
+          amount: 7
+          item: coal
+        }
+      ]
+    }
+  }
+  craftTime: 300
+  description: Modified graphite press
+  hasLiquids: false
+  hasPower: false
+  itemCapacity: 20
+  name: Heavy graphite press
+  outputItem:
+  {
+    amount: 4
+    item: graphite
+  }
+  requirements:
+  [
+    {
+      amount: 175
+      item: copper
+    }
+    {
+      amount: 300
+      item: lead
+    }
+  ]
+  research: graphite-press
+  size: 2
+  type: GenericCrafter
+  updateEffect: smeltsmoke
+}

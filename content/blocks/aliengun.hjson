@@ -1,0 +1,49 @@
+{
+  ammo:
+  {
+    meteoriteshard:
+    {
+      ammoMultiplier: 2
+      bulletHeight: 9
+      bulletWidth: 8
+      damage: 42
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      speed: 4
+    }
+  }
+  burstSpacing: 3
+  category: turret
+  description: MISTERY turret
+  inaccuracy: 5
+  name: Alien turret
+  range: 210
+  reload: 45
+  requirements:
+  [
+    {
+      amount: 40
+      item: meteoriteshard
+    }
+    {
+      amount: 30
+      item: lead
+    }
+    {
+      amount: 25
+      item: titanium
+    }
+    {
+      amount: 20
+      item: copper
+    }
+  ]
+  research: duo
+  rotateSpeed: 12
+  shootCone: 20
+  shots: 3
+  size: 2
+  targetAir: true
+  targetGround: true
+  type: burstTurret
+}

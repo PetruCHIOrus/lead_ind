@@ -1,0 +1,8 @@
+{
+  Description: Natural product derived from rapeseed
+  color: f4ff26
+  flammability: 0.3
+  name: Bioil
+  temperature: 0.5
+  viscosity: 0.5
+}

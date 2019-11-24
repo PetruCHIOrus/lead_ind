@@ -1,0 +1,8 @@
+{
+  color: "717275"
+  description: Good fuel
+  flammability: 0.5
+  name: Diesel
+  temperature: 0.5
+  viscosity: 0.8
+}

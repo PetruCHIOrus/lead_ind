@@ -1,0 +1,39 @@
+{
+  category: crafting
+  consumes:
+  {
+    item: raps
+    power: 1
+  }
+  craftTime: 10
+  description: Squeezes bioil from Rapeseed
+  hasLiquids: true
+  hasPower: true
+  idleSound: machine
+  liquidCapacity: 15
+  name: Bioil mixer
+  outputLiquid:
+  {
+    amount: 4
+    liquid: bioil
+  }
+  requirements:
+  [
+    {
+      amount: 60
+      item: silicon
+    }
+    {
+      amount: 10
+      item: titanium
+    }
+    {
+      amount: 120
+      item: copper
+    }
+  ]
+  research: melter
+  size: 2
+  type: GenericCrafter
+  updateEffect: smeltsmoke
+}

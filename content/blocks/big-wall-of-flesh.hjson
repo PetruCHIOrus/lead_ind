@@ -1,0 +1,17 @@
+{
+  buildTime: 26
+  category: defense
+  description: hardened flesh big wall
+  health: 2500
+  name: Big wall of flesh
+  requirements:
+  [
+    {
+      amount: 24
+      item: flesh
+    }
+  ]
+  research: wall-of-flesh
+  size: 2
+  type: wall
+}

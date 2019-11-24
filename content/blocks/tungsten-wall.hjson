@@ -1,0 +1,17 @@
+{
+  buildTime: 28
+  category: defense
+  description: Very strong wall
+  health: 4000
+  name: Tungsten wall
+  requirements:
+  [
+    {
+      amount: 24
+      item: wolframium
+    }
+  ]
+  research: thorium-wall
+  size: 2
+  type: wall
+}

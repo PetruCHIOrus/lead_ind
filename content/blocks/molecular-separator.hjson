@@ -1,0 +1,47 @@
+{
+  category: crafting
+  consumes:
+  {
+    items:
+    {
+      items:
+      [
+        {
+          amount: 2
+          item: thorium
+        }
+      ]
+    }
+    power: 0.3
+  }
+  craftTime: 130
+  description: Makes plutonium
+  hasLiquids: false
+  hasPower: true
+  idleSound: respawning
+  name: Molecular separator
+  outputItem:
+  {
+    amount: 1
+    item: plutonium
+  }
+  requirements:
+  [
+    {
+      amount: 60
+      item: silicon
+    }
+    {
+      amount: 25
+      item: phase-fabric
+    }
+    {
+      amount: 5
+      item: surge-alloy
+    }
+  ]
+  research: differential-generator
+  size: 2
+  type: GenericCrafter
+  updateEffect: smeltsmoke
+}

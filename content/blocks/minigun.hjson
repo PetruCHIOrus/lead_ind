@@ -1,0 +1,75 @@
+{
+  ammo:
+  {
+    silicon:
+    {
+      ammoMultiplier: 12
+      bulletHeight: 6
+      bulletWidth: 3
+      damage: 21
+      homingPower: 2
+      homingRange: 50
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      speed: 7
+    }
+    thorium:
+    {
+      ammoMultiplier: 8
+      bulletHeight: 7
+      bulletWidth: 4
+      damage: 30
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      speed: 8
+    }
+    titanium:
+    {
+      ammoMultiplier: 8
+      bulletHeight: 5
+      bulletWidth: 2
+      damage: 18
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      speed: 9
+    }
+  }
+  burstSpacing: 2
+  category: turret
+  description: Shoots faster!
+  inaccuracy: 3
+  name: minigun
+  range: 110
+  reload: 6
+  requirements:
+  [
+    {
+      amount: 30
+      item: flesh
+    }
+    {
+      amount: 25
+      item: graphite
+    }
+    {
+      amount: 60
+      item: lead
+    }
+    {
+      amount: 40
+      item: titanium
+    }
+    {
+      amount: 60
+      item: copper
+    }
+  ]
+  research: scatter
+  rotateSpeed: 5
+  shootCone: 1
+  shots: 1
+  size: 2
+  targetAir: true
+  targetGround: true
+  type: burstTurret
+}
