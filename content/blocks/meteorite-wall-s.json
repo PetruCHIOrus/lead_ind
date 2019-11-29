@@ -2,7 +2,7 @@
 	"name": "Small meteorite wall",
   "description": "Small mistery wall",
   "type": "wall",
-  "health": 2850,
+  "health": 710,
   "size": 1,
   "buildTime": 13,
   "requirements": [
