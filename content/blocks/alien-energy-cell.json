@@ -1,0 +1,19 @@
+{
+	"name": "Alien energy cell",
+	"description": "Just battery, but alien"
+	"type":  "battery",
+	"requirements": [
+		{ "item": "titanium", "amount": 75 },
+		{ "item": "silicon", "amount": 50 },
+		{ "item": "meteoriteshard", "amount": 120 },
+		{ "item": "lead", "amount": 100 },
+		{ "item": "plastanium", "amount": 10 },
+		{ "item": "copper", "amount": 50 },	
+	],
+	"consumes": {
+		"powerBuffered": 125000,
+	},
+	"category": "power",
+	"research": "battery-large",
+	"size": 4
+}
