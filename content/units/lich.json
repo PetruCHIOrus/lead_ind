@@ -1,6 +1,5 @@
 {
-	"type": "flyingUnit",
-	"unitType": "lich",
+	"type": "hoverUnit",
 	"name": "Lich",
 	"description": "I know you were waiting for this",
 	"mass": 20,
