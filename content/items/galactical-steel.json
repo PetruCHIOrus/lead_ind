@@ -1,8 +1,8 @@
 {
 	"type": "material",
 	"name": "Galactical Steel",
-	"description": "cool universal thing",
-	"cost": 0,
-	"color": "872DFF",
+	"description": "An advanced alloy useful in almost any application",
+	"cost": 5,
+	"color": "6d8fb3",
 	"Radioactivity": 0
 }
