@@ -1,6 +1,6 @@
 {
 	"name": "Molecular separator",
-	"type": "GenericCrafter",
+	"type": "GenericSmelter",
 	"description": "Speeds up the decay of thorium, turning it into plutonium",
 	"hasPower": true,
 	"size": 2,
