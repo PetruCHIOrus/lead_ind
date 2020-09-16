@@ -1,7 +1,7 @@
 {
 	"name": "Galactical steel smelter",
-	"type": "GenericCrafter",
-	"description": "Best Technologies in 1 smelter",
+	"type": "GenericSmelter",
+	"description": "An advanced smelter used to produce galactical steel",
 	"hasPower": true,
 	"size": 3,
 	"hasLiquids": false,

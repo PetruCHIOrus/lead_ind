@@ -1,8 +1,8 @@
 {
-	"name": "Big silicon smelter",
-	"type": "GenericCrafter",
+	"name": "Silicon furnace",
+	"type": "GenericSmelter",
 	"health": 930,
-	"description": "Big version of silicon smelter",
+	"description": "A more advanced version of the silicon smelter.",
 	"hasPower": false,
 	"size": 3,
 	"hasLiquids": false,
@@ -19,7 +19,7 @@
 		"power": 1.75
 	},
 	"requirements": [
-		{"item": "copper", "amount": 100},
+		{"item": "titanium", "amount": 50},
 		{"item": "lead", "amount": 100},
 		{"item": "graphite", "amount": 100},
 		{"item": "silicon", "amount": 50}
