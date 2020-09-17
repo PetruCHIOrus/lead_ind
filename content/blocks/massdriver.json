@@ -1,7 +1,7 @@
 {
 "type": "massDriver",
-"name" : "Tungsten mass driver",
-"description": "Compact electromagnetic catapult",
+"name" : "Mass catapult",
+"description": "A more compact mass driver with a lower range",
 "hasPower": true,
 "size" : 2,
 "consumes": {
@@ -19,5 +19,5 @@
 { "item": "tungsten-parts", "amount": 15 }
 ],
 "category": "distribution",
-"research": "tungsten-wall-small"
+"research": "mass-driver"
 }
