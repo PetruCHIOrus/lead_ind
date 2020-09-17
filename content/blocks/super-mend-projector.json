@@ -1,6 +1,6 @@
 {
-	"name": "Ultimate mend projector",
-	"description": "Super regeneration!",
+	"name": "Mend field",
+	"description": "A much more advanced mend projector. Optionally uses phase fabric to boost",
 	"type": "mendProjector",
 	"health": 2000,
 	"size": 3,
