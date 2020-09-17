@@ -1,7 +1,7 @@
 {
 	"name": "Metal shaper",
 	"type": "GenericCrafter",
-	"description": "Makes heavy-duty tungsten parts",
+	"description": "Compresses wolframium into heavy-duty tungsten parts",
 	"hasPower": true,
 	"size": 2,
 	"hasLiquids": false,
@@ -11,7 +11,7 @@
 		"power": 2.0,
 		"items": {
 			"items": [
-				{ "item": "wolframium", "amount": 3 }
+				{ "item": "wolframium", "amount": 5 }
 			]
 		},
 	},
