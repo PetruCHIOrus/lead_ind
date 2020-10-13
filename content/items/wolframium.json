@@ -1,7 +1,7 @@
 {
 	"type": "material",
 	"name": "Wolframium",
-	"description": "Very hard material used as ammunition for turrets that attack exclusively ground targets, and not only",
+	"description": "A very hard material used for ammunition and construction",
 	"cost": 4,
 	"hardness": 4,
 	"color": "AAE2E2"
