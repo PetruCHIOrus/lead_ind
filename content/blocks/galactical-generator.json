@@ -21,6 +21,6 @@
 		{ "item": "lead", "amount": 50 }
 	],
 	"category": "power",
-	"research": "turbine-generator"
+	"research": "mechanical-pump"
 }
 
