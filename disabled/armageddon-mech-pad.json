@@ -1,0 +1,20 @@
+{
+  "name": "Armageddon mech pad",
+  "description": "Transform into the Armageddon mech.",
+  "type": "MechPad",
+  "mech": "armageddon-mech",
+  "size": 2,
+  "consumes": {
+    "power": 2.5
+  },
+  "category": "upgrade",
+  "research": "galactical-smelter",
+  "requirements": [
+    { "item": "lead", "amount": 200 },
+    { "item": "galactical-steel", "amount": 175 },
+    { "item": "silicon", "amount": 150 },
+    { "item": "graphite", "amount": 125 },
+    { "item": "titanium", "amount": 100 }
+  ]
+}
+
