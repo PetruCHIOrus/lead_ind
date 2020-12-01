@@ -1,5 +1,5 @@
 {
-	"type": "flyingUnit",
+	"type": "flying",
 	"name": "Pyromaniac",
 	"description": "Dangerous combat unit capable of setting fire to enemy buildings",
 	"speed": 0.12,
