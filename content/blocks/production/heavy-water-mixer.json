@@ -1,0 +1,27 @@
+{
+	"name": "Heavy water mixer",
+	"type": "GenericCrafter",
+	"description": "Mixes heavy water",
+	"liquidCapacity": 50,
+	"outputLiquid": {"liquid": "heavy-water", "amount": 0.17},
+	"hasPower": true,
+	"size": 2,
+	"hasLiquids": true,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.8,
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.25,
+			"booster": true
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 50 },
+		{ "item": "lead", "amount": 40 },
+		{ "item": "silicon", "amount": 35 }
+	],
+	"category": "crafting",
+	"research": "melter",
+}

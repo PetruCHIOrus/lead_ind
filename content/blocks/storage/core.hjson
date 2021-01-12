@@ -1,0 +1,17 @@
+name: "Tungsten core"
+description: "A more heavily armoured core. Cannot be removed after placing"
+type: "coreBlock"
+hasItems: true
+itemCapacity: 4000
+health: 2200
+size: 3
+requirements: [
+silicon/1000
+lead/1000
+titanium/1000
+copper/1000
+plastanium/1000
+tungsten-parts/1000
+]
+category: "effect"
+research: "launch-pad"

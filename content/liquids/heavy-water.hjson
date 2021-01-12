@@ -1,0 +1,5 @@
+name: "Heavy water"
+description: "Heavy-hydrogen water"
+temperature: 0.001
+viscosity: 0.5
+color: "#434398"

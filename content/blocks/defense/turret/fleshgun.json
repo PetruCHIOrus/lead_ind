@@ -1,0 +1,34 @@
+{
+	"type": "ItemTurret",
+	"name": "Fleshgun",
+	"description": "Shoots fleshy. Danger!",
+	"targetAir": false,
+	"targetGround": true,
+	"size": 2,
+	"inaccuracy": 12,
+	"reloadTime": 18,
+	"shootCone": 40,
+	"rotateSpeed": 22,
+	"shots": 4,
+	"range": 162,
+	"burstSpacing": 6,
+	"ammoTypes": {
+		"flesh": {
+			"speed": 3.5,
+			"damage": 19,
+			"width": 7,
+			"height": 9,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 4
+		}
+	},
+	"requirements": [
+		{ "item": "flesh", "amount": 35 },
+		{ "item": "lead", "amount": 50 },
+		{ "item": "titanium", "amount": 40 },
+		{ "item": "copper", "amount": 25 }
+	],
+	"category": "turret",
+	"research": "duo"
+}

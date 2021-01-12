@@ -1,8 +1,0 @@
-{
-	"type": "material",
-	"name": "Wolframium",
-	"description": "A very hard material used for ammunition and construction",
-	"cost": 4,
-	"hardness": 4,
-	"color": "AAE2E2"
-}
