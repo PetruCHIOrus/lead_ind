@@ -1,0 +1,25 @@
+name: "Heatdrill"
+description: "You personally will be bursting with the heat of this drill, so HOT"
+type: "Drill"
+drawMineItem:true
+size: 5
+tier: 4
+drillTime: 160
+requirements: [
+	copper/140
+	graphite/70
+	titanium/100
+	silicon/50
+	lead/50
+	plastanium/25
+]
+consumes: {
+	power: 3.0,
+	liquid: {
+		liquid: "slag"
+		amount: 0.1
+		booster: true
+	}
+}
+category: "production"
+research: "laser-drill"

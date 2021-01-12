@@ -1,0 +1,12 @@
+type: "Conveyor"
+name: "Galactical conveyor"
+description: "Galaxy conveyor!"
+requirements: [
+	titanium/1
+	plastanium/3
+	lead/5
+	galactical-steel/1
+]
+category: "distribution"
+speed: 0.20
+research: "titanium-conveyor"

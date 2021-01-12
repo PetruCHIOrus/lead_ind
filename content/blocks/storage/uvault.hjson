@@ -1,0 +1,14 @@
+name: "Universal Vault"
+description: "A more advanced vault, stores more items"
+type: "StorageBlock"
+itemCapacity: 3000
+hasItems: true
+health: 2000
+size: 3
+requirements: [
+galactical-steel/50
+plastanium/200
+lead/100
+]
+category: "effect"
+research: "vault"

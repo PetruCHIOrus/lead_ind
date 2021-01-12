@@ -1,0 +1,22 @@
+name: "Microdrill"
+description: "Microdrill 1x1 for some cases"
+type: "Drill"
+drawMineItem: true
+size: 1
+tier: 2
+drillTime: 600
+consumes: {
+	liquid: {
+		liquid: "water"
+		amount: 0.02
+		booster: true
+		optional: true
+	}
+}
+requirements: [
+		copper/4
+		lead/4
+		graphite/4
+]
+category: "production"
+research: "graphite-press"

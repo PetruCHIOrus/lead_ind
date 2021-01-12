@@ -1,8 +1,0 @@
-{
-	"name": "Bioil",
-	"Description": "Natural product derived from rapeseed",
-	"temperature": 0.5,
-	"viscosity": 0.5,
-	"color": "f4ff26",
-	"flammability": 0.3
-}

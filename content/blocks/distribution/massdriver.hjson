@@ -1,0 +1,21 @@
+type: "massDriver"
+name: "Mass catapult"
+description: "A more compact mass driver with a lower range"
+hasPower: true
+size: 2
+consumes: {
+	power: 1.25
+}
+itemCapacity: 70
+reloadTime: 110
+//"buildTime": 210
+range: 300
+requirements: [
+silicon/40
+graphite/40
+lead/50
+copper/50
+tungsten-parts/15
+]
+category: "distribution"
+research: "mass-driver"
