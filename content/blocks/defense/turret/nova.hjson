@@ -1,0 +1,52 @@
+type: "ItemTurret"
+name: "Nova"
+description: "Shoots far"
+targetAir: true
+targetGround: true
+size: 4
+reloadTime: 180
+shootCone: 40
+shootSound:"shootBig"
+rotateSpeed: 1
+shots: 1
+range: 750
+burstSpacing: 6
+ammoTypes: {
+	blast-compound: {
+		speed: 20
+		damage: 340
+		width: 13
+		height: 21
+		shootEffect: "shootBig"
+		smokeEffect: "lancerLaserShootSmoke"
+		ammoMultiplier: 3
+  }
+	silicon: {
+		speed: 21
+		damage: 290
+		homingPower: 2
+		homingRange: 189
+		width: 14
+		height: 19
+		shootEffect: "shootBig"
+		smokeEffect: "lancerLaserShootSmoke",
+		ammoMultiplier: 1
+	}
+	plastanium: {
+		speed: 22
+		damage: 290
+		width: 13
+		height: 21
+		shootEffect: "shootBig"
+		smokeEffect: "lancerLaserShootSmoke"
+		ammoMultiplier: 2
+	}
+}
+requirements: [
+	flesh/750
+	plastanium/500
+	silicon/750
+	thorium/500
+]
+category: "turret"
+research: "arc"

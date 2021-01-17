@@ -1,0 +1,32 @@
+type: "ItemTurret"
+name: "Fleshgun"
+description: "Shoots fleshy. Danger!"
+targetAir: false
+targetGround: true
+size: 2
+inaccuracy: 12
+reloadTime: 18
+shootCone: 40
+rotateSpeed: 22
+shots: 4
+range: 162
+burstSpacing: 6
+ammoTypes: {
+	flesh: {
+		speed: 3.5
+		damage: 19
+		width: 7
+		height: 9
+		shootEffect: "shootSmall"
+		smokeEffect: "shootSmallSmoke"
+		ammoMultiplier: 4
+	}
+}
+requirements: [
+	flesh/35
+	lead/50
+	titanium/40
+	copper/25 
+]
+category: "turret"
+research: "duo"

@@ -1,0 +1,21 @@
+type: "SingleTypeGenerator"
+name: "Banana reactor"
+description: "Just the best place for your bananas"
+itemCapacity: 20
+size: 3
+hasLiquids: false
+powerProduction: 4
+itemDuration: 150
+generateEffect: "smeltsmoke"
+consumes: {
+	item:"banana"
+}
+requirements: [
+		titanium/90
+		copper/250
+		silicon/105
+]
+category: "power"
+research: "thermal-generator"
+ambientSound: "respawning"
+ambientSoundVolume: 0.5

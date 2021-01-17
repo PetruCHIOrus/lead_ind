@@ -1,0 +1,23 @@
+name: "Fitogen lamp"
+type: "GenericCrafter"
+description: "Just grows bananas"
+liquidCapacity: 40
+hasPower: true
+size: 2
+health: 60
+hasLiquids: true
+craftTime: 20
+craftEffect: "smeltsmoke"
+consumes: {
+	power: 3.0,
+	liquid: water/0.268
+}
+requirements: [
+	silicon/60
+	copper/130
+]
+category: "crafting"
+research: "water-extractor"
+ambientSound: "respawning"
+ambientSoundVolume: 0.5
+outputItem: banana/1

@@ -1,0 +1,23 @@
+type: "SingleTypeGenerator"
+name: "Galactic Generator"
+description: "very economical and powerful internal combustion generator"
+size: 1
+hasPower: true
+hasItems: true
+itemDuration: 150
+powerProduction: 3.0
+consumes: {
+	items: {
+	   items: [
+			coal/1
+		]
+		optional: true
+	}
+}
+requirements: [
+	galactical-steel/25
+   silicon/25
+	lead/50
+]
+category: "power"
+research: "mechanical-pump"

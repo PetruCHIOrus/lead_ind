@@ -1,0 +1,10 @@
+name: "Wall of flesh"
+description: "hardened flesh wall"
+type: "wall"
+health: 625
+size: 1
+requirements: [
+	flesh/6
+]
+category: "defense"
+research: "thorium-wall"

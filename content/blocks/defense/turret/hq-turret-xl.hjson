@@ -1,0 +1,39 @@
+type: "ItemTurret"
+name: "Galactical gun"
+description: "large reinforced long-range turret"
+targetAir: true
+targetGround: true
+inaccuracy: 20
+size: 3
+reloadTime: 8
+shootCone: 40
+shootSound:"shootBig"
+rotateSpeed: 10
+shots: 1
+range: 240
+burstSpacing: 15
+ammoTypes: {
+	galactical-steel: {
+		speed: 5.5
+		damage: 80
+		homingPower: 2
+		homingRange: 150
+		backColor:"FF00FF"
+		frontColor:"FF00FF"
+		width: 12
+		height: 9
+		shootEffect: "hitLancer"
+		smokeEffect: "shootSmallSmoke"
+		ammoMultiplier: 2
+	}
+}
+requirements: [
+	copper/225
+	galactical-steel/125
+	silicon/150
+	plastanium/50
+	surge-alloy/100
+	thorium/75
+]
+category: "turret"
+research: "hq-turret"

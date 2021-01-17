@@ -1,0 +1,22 @@
+name: "Diesel mixer"
+type: "GenericCrafter"
+description: "Mixes great fuel"
+liquidCapacity: 50
+outputLiquid: diesel/3.34
+hasPower: true
+size: 3
+hasLiquids: true
+craftTime: 10
+updateEffect: "smeltsmoke"
+consumes: {
+	power: 0.8
+	liquid: bioil/0.25
+	items: {items: [coal/2]}
+}
+requirements: [
+	copper/50
+	lead/40
+	silicon/35
+]
+category: "crafting"
+research: "melter"

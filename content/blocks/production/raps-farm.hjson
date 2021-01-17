@@ -1,0 +1,24 @@
+name: "Rape farm"
+type: "GenericCrafter"
+description: "Just grows rape"
+liquidCapacity: 40
+hasPower: true
+size: 2
+hasLiquids: true
+craftTime: 20
+updateEffect: "smeltsmoke"
+consumes: {
+	power: 0.5
+	liquid: water/0.03
+	item:"compost"
+}
+requirements: [
+	silicon/30
+	lead/50
+	copper/70
+]
+category: "crafting"
+research: "water-extractor"
+ambientSound: "respawning"
+ambientSoundVolume: 0.5
+outputItem: raps/1

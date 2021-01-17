@@ -1,5 +1,4 @@
-name:"[white]Lead Industri[pink]es"
-author: "PetruCHIOrus & DefenseX"
-description: "New guns, drills, crafting, materials and resourses"
-version: 1.5
+displayName:"Lead Industries"
+name:"lead_ind"
+version: 1.5.1
 minGameVersion: 122
