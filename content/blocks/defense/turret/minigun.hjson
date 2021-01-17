@@ -1,0 +1,53 @@
+type: "ItemTurret"
+name: "minigun"
+description: "Shoots faster!"
+targetAir: true
+targetGround: true
+size: 2
+inaccuracy: 3
+reloadTime: 6
+shootCone: 1
+rotateSpeed: 5
+shots: 1
+range: 110
+burstSpacing: 2
+ammoTypes: {
+	titanium: {
+		speed: 9
+		damage: 18
+		width: 2
+		height: 5
+		shootEffect: "shootSmall"
+		smokeEffect: "shootSmallSmoke"
+		ammoMultiplier: 8
+	}
+	silicon: {
+		speed: 7
+		damage: 21
+		homingPower: 2
+		homingRange: 50
+		width: 3
+		height: 6
+		shootEffect: "shootSmall"
+		smokeEffect: "shootSmallSmoke"
+		ammoMultiplier: 12
+	}
+	thorium: {
+		speed: 8
+		damage: 30
+		width: 4
+		height: 7
+		shootEffect: "shootSmall"
+		smokeEffect: "shootSmallSmoke"
+		ammoMultiplier: 8
+	}
+}
+requirements: [
+	flesh/30
+	graphite/25
+	lead/60
+	titanium/40
+	copper/60
+]
+category: "turret"
+research: "scatter"

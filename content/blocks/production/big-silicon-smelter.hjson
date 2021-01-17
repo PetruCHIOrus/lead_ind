@@ -1,0 +1,28 @@
+name: "Silicon furnace"
+type: "GenericSmelter"
+health: 930
+description: "A more advanced version of the silicon smelter."
+hasPower: false
+size: 3
+hasLiquids: false
+craftTime: 36.29
+updateEffect: "smeltsmoke"
+itemCapacity: 20
+consumes: {
+	items: {
+		items: [
+			coal/2
+			sand/3
+		]
+	}
+	power: 1.75
+}
+requirements: [
+	titanium/50
+	lead/100
+	graphite/100
+	silicon/50
+]
+category: "crafting"
+research: "silicon-smelter"
+outputItem: silicon/3

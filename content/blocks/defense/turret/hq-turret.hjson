@@ -1,0 +1,38 @@
+type: "ItemTurret"
+name: "Galactical turret"
+description: "powerful galactic turret"
+targetAir: true
+targetGround: true
+inaccuracy: 40
+size: 2
+reloadTime: 15
+shootCone: 40
+shootSound:"shootBig"
+rotateSpeed: 10
+shots: 1
+range: 150
+burstSpacing: 10
+ammoTypes: {
+	galactical-steel: {
+		speed: 4
+		damage: 40
+		homingPower: 3
+		homingRange: 90
+		backColor:"FF00FF"
+		frontColor:"FF00FF"
+		width: 10
+		height: 8
+		shootEffect: "hitLancer"
+		smokeEffect: "shootSmallSmoke"
+		ammoMultiplier: 3
+	}
+}
+requirements: [
+	copper/175
+	galactical-steel/75
+	silicon/100
+	plastanium/25
+	thorium/25
+]
+category: "turret"
+research: "ripple"

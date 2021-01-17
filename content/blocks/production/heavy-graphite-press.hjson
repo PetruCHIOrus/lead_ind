@@ -1,0 +1,23 @@
+name: "Heavy graphite press"
+type: "GenericCrafter"
+description: "Modified graphite press"
+hasPower: false
+size: 2
+hasLiquids: false
+craftTime: 300
+updateEffect: "smeltsmoke"
+itemCapacity: 20
+consumes: {
+	items: {
+		items: [
+			coal/7
+		]
+	}
+}
+requirements: [
+	copper/175
+	lead/300
+]
+category: "crafting"
+research: "graphite-press"
+outputItem: graphite/4

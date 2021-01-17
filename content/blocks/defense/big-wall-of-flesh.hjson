@@ -1,0 +1,10 @@
+name: "Big wall of flesh"
+description: "hardened flesh big wall"
+type: "wall"
+health: 2500
+size: 2
+requirements: [
+	flesh/24
+]
+category: "defense"
+research: "wall-of-flesh"

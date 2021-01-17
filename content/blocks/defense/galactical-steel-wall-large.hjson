@@ -1,0 +1,10 @@
+name: "Galactical Steel Wall"
+description: "A big galactical hardness wall."
+type: "Wall"
+health: 6000
+size: 2
+requirements: [
+	galactical-steel/24
+]
+category: "defense"
+research: "galactical-steel-wall"

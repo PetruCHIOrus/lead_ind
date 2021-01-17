@@ -1,0 +1,31 @@
+name: "Galactical steel smelter"
+type: "GenericSmelter"
+description: "An advanced smelter used to produce galactical steel"
+hasPower: true
+size: 3
+hasLiquids: false
+craftTime: 105
+updateEffect: "smeltsmoke"
+itemCapacity: 20
+consumes: {
+	power: 3.5
+	items: {
+		items: [
+			titanium/2
+			plastanium/1
+			thorium/1
+		]
+	}
+}
+requirements: [
+	copper/100
+	plastanium/100
+	titanium/100
+	thorium/100
+	silicon/100
+	graphite/100
+	lead/100
+]
+category: crafting
+research: graphite-press
+outputItem: galactical-steel/1

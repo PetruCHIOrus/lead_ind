@@ -1,0 +1,23 @@
+name: "Coalmelter"
+type: "GenericCrafter"
+description: "Melts coal to oil"
+liquidCapacity: 15
+outputLiquid: oil/0.5
+hasPower: true
+size: 2
+hasLiquids: true
+craftTime: 10
+updateEffect: "smeltsmoke"
+consumes: {
+	power: 1.0
+	item: "coal"
+}
+requirements: [
+	silicon/60
+	titanium/10
+	copper/120
+]
+category: "crafting"
+research: "coal-centrifuge"
+ambientSound: "machine"
+ambientSoundVolume: 0.5

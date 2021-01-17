@@ -1,0 +1,28 @@
+name: "Thorium machine"
+type: "GenericCrafter"
+description: "Makes thorium"
+liquidCapacity: 50
+outputItem: thorium/2
+hasPower: true
+size: 2
+hasLiquids: true
+craftTime: 90
+updateEffect: "smeltsmoke"
+consumes: {
+	power: 0.8
+	liquid: slag/0.15
+	items: {
+		items: [
+			lead/4
+			sand/6
+		]
+	}
+}
+requirements: [
+	copper/100
+	lead/150
+	silicon/50
+	titanium/100
+]
+category: "crafting"
+research: "melter"

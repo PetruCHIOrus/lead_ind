@@ -1,0 +1,33 @@
+type: "PowerTurret"
+name: "Shark"
+description: "lightning fast rate of fire! high damage and a large radius of attack, but the turret is quite fragile, and requires a lot of energy"
+health: 1500
+reloadTime: 8
+rotateSpeed: 12
+powerUse: 4
+targetAir: true
+targetGround: true
+range: 150
+size: 3
+shootType: {
+  type: "LightningBulletType"
+  lightningColor: "#00DBCE"
+  lightningLength: 23
+  speed: 2
+  lifetime: 65
+  damage: 21
+  ammoMultiplier: 1
+  reloadMultiplier: 1
+}
+cooldown: 3
+heatColor: "ff0000"
+shootSound: "spark"
+requirements: [
+	silicon/35
+	titanium/70
+   lead/150
+	copper/100
+	tungsten-parts/50
+]
+category: "turret"
+research: "arc"

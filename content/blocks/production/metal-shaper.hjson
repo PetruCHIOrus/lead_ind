@@ -1,0 +1,22 @@
+name: "Metal shaper"
+type: "GenericCrafter"
+description: "Compresses wolframium into heavy-duty tungsten parts"
+hasPower: true
+size: 2
+hasLiquids: false
+craftTime: 120
+updateEffect: "smeltsmoke"
+consumes: {
+	power: 2.0
+	items: {items: [wolframium/5]}
+}
+requirements: [
+	silicon/40
+	lead/100
+	titanium/60
+	wolframium/100
+]
+category: crafting
+research: graphite-press
+ambientSound: respawning
+outputItem: tungsten-parts/2
