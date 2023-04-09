@@ -5,12 +5,13 @@ targetAir: false
 targetGround: true
 size: 2
 inaccuracy: 12
-reloadTime: 18
+reload: 18
 shootCone: 40
 rotateSpeed: 22
-shots: 4
+shoot: {
+    shots: 4
+}
 range: 162
-burstSpacing: 6
 ammoTypes: {
 	flesh: {
 		speed: 3.5

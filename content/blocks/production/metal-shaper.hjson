@@ -1,6 +1,6 @@
 name: "Metal shaper"
 type: "GenericCrafter"
-description: "Compresses wolframium into heavy-duty tungsten parts"
+description: "Compresses wolframium into heavy-duty wolframium parts"
 hasPower: true
 size: 2
 hasLiquids: false
@@ -19,4 +19,4 @@ requirements: [
 category: crafting
 research: graphite-press
 ambientSound: respawning
-outputItem: tungsten-parts/2
+outputItem: wolframium-parts/2

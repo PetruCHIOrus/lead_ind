@@ -4,13 +4,14 @@ description: "Shoots far"
 targetAir: true
 targetGround: true
 size: 4
-reloadTime: 180
+reload: 180
 shootCone: 40
 shootSound:"shootBig"
 rotateSpeed: 1
-shots: 1
+shoot: {
+    shots: 1
+}
 range: 750
-burstSpacing: 6
 ammoTypes: {
 	blast-compound: {
 		speed: 20
@@ -30,7 +31,7 @@ ammoTypes: {
 		height: 19
 		shootEffect: "shootBig"
 		smokeEffect: "lancerLaserShootSmoke",
-		ammoMultiplier: 1
+      ammoMultiplier: 1
 	}
 	plastanium: {
 		speed: 22

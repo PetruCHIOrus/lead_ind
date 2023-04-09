@@ -5,12 +5,13 @@ targetAir: false
 targetGround: true
 size: 1
 inaccuracy: 20
-reloadTime: 70
+reload: 70
 shootCone: 20
 rotateSpeed: 12
-shots: 5
+shoot: {
+    shots: 5
+}
 range: 70
-burstSpacing: 0
 ammoTypes: {
 	lead: {
 		speed: 2

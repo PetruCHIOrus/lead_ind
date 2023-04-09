@@ -1,4 +1,4 @@
-type: "SingleTypeGenerator"
+type: "ConsumeGenerator"
 name: "Banana reactor"
 description: "Just the best place for your bananas"
 itemCapacity: 20

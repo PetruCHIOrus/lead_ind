@@ -5,12 +5,13 @@ targetAir: true
 targetGround: true
 size: 2
 inaccuracy: 3
-reloadTime: 6
+reload: 6
 shootCone: 1
 rotateSpeed: 5
-shots: 1
+shoot: {
+    shots: 1
+}
 range: 110
-burstSpacing: 2
 ammoTypes: {
 	titanium: {
 		speed: 9

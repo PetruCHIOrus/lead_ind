@@ -1,2 +1,5 @@
 type: "OreBlock"
 itemDrop: "wolframium"
+oreDefault: true
+oreScale: 24
+oreThreshold: 0.828

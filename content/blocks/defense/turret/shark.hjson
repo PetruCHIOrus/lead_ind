@@ -2,9 +2,8 @@ type: "PowerTurret"
 name: "Shark"
 description: "lightning fast rate of fire! high damage and a large radius of attack, but the turret is quite fragile, and requires a lot of energy"
 health: 1500
-reloadTime: 8
+reload: 8
 rotateSpeed: 12
-powerUse: 4
 targetAir: true
 targetGround: true
 range: 150
@@ -19,7 +18,9 @@ shootType: {
   ammoMultiplier: 1
   reloadMultiplier: 1
 }
-cooldown: 3
+consumes: {
+  power: 4
+}
 heatColor: "ff0000"
 shootSound: "spark"
 requirements: [
@@ -27,7 +28,7 @@ requirements: [
 	titanium/70
    lead/150
 	copper/100
-	tungsten-parts/50
+	wolframium-parts/50
 ]
 category: "turret"
 research: "arc"

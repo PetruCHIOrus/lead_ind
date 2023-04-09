@@ -1,11 +1,29 @@
 name: "Galactical steel smelter"
-type: "GenericSmelter"
+type: "GenericCrafter"
 description: "An advanced smelter used to produce galactical steel"
-hasPower: true
 size: 3
+category: crafting
+craftEffect: "smeltsmoke"
+drawer: {
+    type: "DrawMulti",
+    drawers: [
+        {
+            type: DrawDefault
+        },
+        {
+            type: DrawFlame,
+            flameRadius: 3.3,
+            flameRadiusIn: 1.5,
+            flameRadiusScl: 5.25,
+            flameRadiusMag: 3.0,
+            flameRadiusInMag: 1.5,
+            flameColor: "ffef99"
+        }
+    ]
+}
+hasPower: true
 hasLiquids: false
 craftTime: 105
-updateEffect: "smeltsmoke"
 itemCapacity: 20
 consumes: {
 	power: 3.5
@@ -26,6 +44,6 @@ requirements: [
 	graphite/100
 	lead/100
 ]
-category: crafting
 research: graphite-press
 outputItem: galactical-steel/1
+ambientSound: "smelter"

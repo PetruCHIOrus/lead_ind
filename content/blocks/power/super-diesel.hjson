@@ -1,4 +1,4 @@
-type: "SingleTypeGenerator"
+type: "ConsumeGenerator"
 name: "Super diesel"
 description: "Just best place for your diesel"
 itemCapacity: 20

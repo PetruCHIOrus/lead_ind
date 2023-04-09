@@ -1,4 +1,4 @@
 var mod = Vars.mods.locateMod("lead_ind");
-mod.meta.displayName = "[white]Lead Industri[pink]es";
+mod.meta.displayName = "[]Lead Industri[pink]es";
 mod.meta.description = "[pink]New guns, drills, crafting, materials and resourses";
-mod.meta.author = "[white]Petru[#C7ACB4]CHIO[white]rus\n[white]Defense[red]X\n[#7933B3]paulieg626";
+mod.meta.author = "[]Petru[#C7ACB4]CHIO[]rus\n[]Defense[red]X\n[#ff0000][#fff000]paulieg626";

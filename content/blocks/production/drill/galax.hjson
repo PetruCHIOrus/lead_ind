@@ -6,19 +6,19 @@ tier: 5
 drillTime: 7
 hasPower: true
 consumes: {
-power: 2.5
-liquid: {
-liquid: "water"
-amount: 0.1
-booster: true
-optional: true
-}
+    power: 2.5
+    liquid: {
+        liquid: "water"
+        amount: 0.1
+        booster: true
+        optional: true
+    }
 }
 requirements: [
-copper/200
-lead/200
-titanium/100
-galactical-steel/100
+    copper/200
+    lead/200
+    titanium/100
+    galactical-steel/100
 ]
 category: "production"
 research: "blast-drill"

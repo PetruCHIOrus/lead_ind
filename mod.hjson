@@ -1,4 +1,6 @@
 displayName:"Lead Industries"
 name:"lead_ind"
-version: 1.5.1
-minGameVersion: 122
+description:"New guns, drills, crafting, materials and resourses"
+author:"PetruCHIOrus\nDefenseX\npaulieg626"
+minGameVersion: 143
+version: 1.6

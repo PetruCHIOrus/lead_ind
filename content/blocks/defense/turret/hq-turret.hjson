@@ -5,13 +5,14 @@ targetAir: true
 targetGround: true
 inaccuracy: 40
 size: 2
-reloadTime: 15
+reload: 15
 shootCone: 40
 shootSound:"shootBig"
 rotateSpeed: 10
-shots: 1
+shoot: {
+    shots: 1
+}
 range: 150
-burstSpacing: 10
 ammoTypes: {
 	galactical-steel: {
 		speed: 4

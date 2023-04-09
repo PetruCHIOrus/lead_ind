@@ -1,12 +1,31 @@
 name: "Silicon furnace"
-type: "GenericSmelter"
-health: 930
+type: "GenericCrafter"
 description: "A more advanced version of the silicon smelter."
-hasPower: false
 size: 3
+category: "crafting"
+craftEffect: "smeltsmoke"
+drawer: {
+    type: "DrawMulti",
+    drawers: [
+        {
+            type: DrawDefault
+        },
+        {
+            type: DrawFlame,
+            flameRadius: 3.3,
+            flameRadiusIn: 1.5,
+            flameRadiusScl: 5.25,
+            flameRadiusMag: 3.0,
+            flameRadiusInMag: 1.5,
+            flameColor: "ffef99"
+        }
+    ]
+}
+health: 930
+hasItems: true
+hasPower: false
 hasLiquids: false
 craftTime: 36.29
-updateEffect: "smeltsmoke"
 itemCapacity: 20
 consumes: {
 	items: {
@@ -23,6 +42,6 @@ requirements: [
 	graphite/100
 	silicon/50
 ]
-category: "crafting"
 research: "silicon-smelter"
 outputItem: silicon/3
+ambientSound: "respawning"

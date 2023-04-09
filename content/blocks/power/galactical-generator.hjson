@@ -1,9 +1,10 @@
-type: "SingleTypeGenerator"
+type: "ConsumeGenerator"
 name: "Galactic Generator"
 description: "very economical and powerful internal combustion generator"
 size: 1
 hasPower: true
 hasItems: true
+hasLiquids: false
 itemDuration: 150
 powerProduction: 3.0
 consumes: {

@@ -1,11 +1,29 @@
 name: "Molecular separator"
-type: "GenericSmelter"
+type: "GenericCrafter"
 description: "Speeds up the decay of thorium, turning it into plutonium",
-hasPower: true
 size: 2
+category: "crafting"
+craftEffect: "smeltsmoke"
+drawer: {
+    type: "DrawMulti",
+    drawers: [
+        {
+            type: DrawDefault
+        },
+        {
+            type: DrawFlame,
+            flameRadius: 2.2,
+            flameRadiusIn: 1.0,
+            flameRadiusScl: 3.5,
+            flameRadiusMag: 2.0,
+            flameRadiusInMag: 1.0,
+            flameColor: "ffef99"
+        }
+    ]
+}
+hasPower: true
 hasLiquids: false
 craftTime: 130
-updateEffect: "smeltsmoke"
 consumes: {
 	power: 0.3
 	items: {items: [thorium/2]}
@@ -15,7 +33,6 @@ requirements: [
 	phase-fabric/25
 	surge-alloy/5
 ]
-category: "crafting"
 research: "differential-generator"
 ambientSound: "respawning"
 ambientSoundVolume: 0.5
